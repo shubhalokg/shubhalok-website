@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap');
+
+:root {
+  --font-inter: 'Inter', sans-serif;
+  --font-playfair: 'Playfair Display', serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-gray-800 bg-white;
+  }
+
+  h1, h2, h3 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-block bg-brand-orange text-white font-semibold px-7 py-3 rounded-lg
+           hover:bg-brand-orange-light transition-colors duration-200 shadow-md;
+  }
+
+  .btn-outline {
+    @apply inline-block border-2 border-brand-orange text-brand-orange font-semibold px-7 py-3 rounded-lg
+           hover:bg-brand-orange hover:text-white transition-colors duration-200;
+  }
+
+  .btn-navy {
+    @apply inline-block bg-brand-navy text-white font-semibold px-7 py-3 rounded-lg
+           hover:bg-brand-navy-light transition-colors duration-200 shadow-md;
+  }
+
+  .section-heading {
+    @apply text-3xl md:text-4xl font-bold text-brand-navy mb-4;
+  }
+
+  .section-subheading {
+    @apply text-lg text-gray-600 max-w-2xl;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow duration-200;
+  }
+
+  .accent-bar {
+    @apply w-14 h-1 bg-brand-orange rounded-full mb-6;
+  }
+}
