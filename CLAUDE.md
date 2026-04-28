@@ -35,16 +35,30 @@
 - Primary colors: Orange #E86C1A, Green #1A7A3C, Navy #1A2A5E
 - Fonts: Inter (body), Playfair Display (headings)
 - Visual inspiration: HUMANity in the Age of AI podcast artwork — bold, geometric, culturally rich
-- Domain target: shubhalokghosh.com
+- Domain: shubhalok.com (registered via Namecheap, ~$11.28/yr, privacy protection enabled)
+- Domain meaning: "blissful light" in Bengali
 
 ---
 
 ## Tech Stack
 - Framework: Next.js 14 with TypeScript
 - Styling: Tailwind CSS with custom brand colors
-- Hosting: Vercel (planned)
+- Hosting: Vercel (Hobby plan, free) — auto-deploys on every push to GitHub main
 - Node version: v24.15.0 (via nvm)
 - To run locally: export PATH="$HOME/.nvm/versions/node/v24.15.0/bin:$PATH" && npm run dev
+
+## Live Deployment
+- GitHub repo: https://github.com/shubhalokg/shubhalok-website (public)
+- Vercel URL: https://shubhalok-website-pmqnzv0x5-shubhalokgs-projects.vercel.app
+- Custom domain (propagating): https://www.shubhalok.com
+- DNS configured in Namecheap Advanced DNS:
+  - A Record: @ → 216.198.79.1
+  - CNAME Record: www → cname.vercel-dns.com
+
+## Accounts
+- GitHub: shubhalokg
+- Vercel: shubhalokgs-projects (Hobby plan, free)
+- Namecheap: shubhalok.com registered (~$11.28/yr)
 
 ---
 
@@ -143,14 +157,16 @@ Strategic, mission-driven growth leader who turns human-led stories into scalabl
 
 ## Still Needed — Content To Add
 - [ ] Headshot photos
-- [ ] Resume / CV (to be uploaded)
+- [ ] Resume / CV (to be uploaded as PDF for download)
 - [ ] Family history / personal background for About page
 - [ ] Podcast episode titles, guest names, Spotify/Apple links
 - [ ] Real email address (currently placeholder: hello@shubhalokghosh.com)
 - [ ] Formspree or email service for contact form
 - [ ] Case study details for Work page
-- [ ] Domain purchase: shubhalokghosh.com
-- [ ] Vercel account for deployment
+- [x] Domain purchase — shubhalok.com registered via Namecheap
+- [x] Vercel account and deployment — live
+- [ ] Confirm shubhalok.com fully propagated and SSL active
+- [ ] Trademark research follow-up: ITU filing for "HUMANity in the Age of AI" (no exact USPTO match found)
 
 ---
 
@@ -199,10 +215,35 @@ Strategic, mission-driven growth leader who turns human-led stories into scalabl
 - Dev server confirmed running cleanly at http://localhost:3001
 - Production build verified: all 9 routes compile with zero errors
 
+### Session 3 — April 27, 2025
+
+#### Infrastructure & Deployment
+- Initialized git repository in project folder; created initial commit (20 files)
+- Installed Homebrew on MacBook Pro
+- Installed GitHub CLI (gh v2.91.0) via Homebrew and authenticated with GitHub account (shubhalokg)
+- Created GitHub repository: https://github.com/shubhalokg/shubhalok-website (public)
+- Pushed all code to GitHub main branch — clean history
+- Created Vercel account (shubhalokgs-projects, Hobby plan, free)
+- Connected Vercel to GitHub repo — auto-deploys on every push to main
+- Site live at: https://shubhalok-website-pmqnzv0x5-shubhalokgs-projects.vercel.app
+
+#### Domain
+- Purchased shubhalok.com via Namecheap (~$11.28/yr, privacy protection enabled)
+- Domain meaning: "blissful light" in Bengali — chosen over shubhalokghosh.com
+- Added shubhalok.com to Vercel domains
+- Configured DNS in Namecheap Advanced DNS:
+  - A Record: @ → 216.198.79.1
+  - CNAME Record: www → cname.vercel-dns.com
+- SSL certificate generating; www.shubhalok.com propagating
+
+#### Research
+- Searched USPTO for trademark "HUMANity in the Age of AI" — no exact match found
+- ITU (Intent to Use) filing recommended for trademark protection
+
 ### Next Session Goals
-- Upload headshot and replace placeholder images
+- Confirm shubhalok.com is fully live and SSL active
+- Upload headshot photo and replace placeholder images
 - Add real podcast episode titles, guest names, Spotify/Apple links
 - Wire up contact form (Formspree or Resend)
-- Purchase domain: shubhalokghosh.com
-- Set up Vercel deployment
-- Add resume PDF download to About/Media Kit pages
+- Add resume PDF download to About and Media Kit pages
+- Follow up on ITU trademark filing for "HUMANity in the Age of AI"
