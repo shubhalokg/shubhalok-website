@@ -11,52 +11,73 @@ export const metadata: Metadata = {
 const speakingTopics = [
   {
     title: 'The Human Advantage in the Age of AI',
-    desc: 'Why the businesses that win in an AI-saturated market will be those that double down on empathy, creativity, and human connection.',
+    desc: 'Why the businesses that win in an AI-saturated market will be those that double down on empathy, creativity, and human connection — and what it takes to build that culture.',
     format: 'Keynote / Panel',
   },
   {
     title: 'Fractional Leadership: The Future of the C-Suite',
-    desc: 'How the rise of fractional executives is democratizing access to senior talent and what it means for the future of work.',
+    desc: 'How the rise of fractional executives is democratizing access to senior talent and what it means for founders, growth-stage companies, and the future of work.',
     format: 'Keynote / Workshop',
   },
   {
-    title: 'CX Transformation That Actually Works',
-    desc: 'The difference between companies that talk about customer experience and those that build it into their DNA — and how to become the latter.',
-    format: 'Keynote / Workshop',
+    title: 'Go-to-Market Strategy for Founders',
+    desc: 'From positioning to pipeline — the strategic decisions early-stage founders must get right before they can scale, and the most common mistakes that slow them down.',
+    format: 'Workshop / Keynote',
   },
   {
-    title: 'MarTech Without the Madness',
-    desc: 'How to build a marketing technology stack that enables rather than overwhelms — and how to get your team to actually use it.',
+    title: 'Brand Positioning That Actually Works',
+    desc: 'How to find and hold a distinctive position in a crowded market — lessons from 25 years of brand work across life sciences, healthcare, retail, and automotive.',
     format: 'Workshop / Panel',
   },
   {
-    title: 'Building Marketing That Scales',
-    desc: 'A framework for growing businesses moving from founder-led marketing to scalable, strategic marketing infrastructure.',
-    format: 'Keynote / Workshop',
+    title: 'A Legacy of Purpose: Leading from the Inside Out',
+    desc: 'Drawing on a family legacy rooted in Gandhi\'s independence movement, Shubhalok explores what it means to lead with conviction, service, and a human-first worldview.',
+    format: 'Keynote',
   },
   {
     title: 'Global Marketing Leadership',
-    desc: 'Lessons from leading marketing teams across the US, India, and EU — navigating culture, complexity, and change at scale.',
+    desc: 'Lessons from leading teams across the US, India, and EU — navigating culture, complexity, and change at scale while keeping the human at the center.',
     format: 'Keynote / Panel',
   },
 ]
 
 const fastFacts = [
-  { label: 'Current Role', value: 'Fractional CMO, Amorbis.com' },
+  { label: 'Current Role', value: 'Strategic Advisor & Fractional CMO, Tin Taal Advisory' },
   { label: 'Previous Title', value: 'Chief Experience Officer, TCS' },
-  { label: 'Experience', value: '25+ years in marketing & CX' },
+  { label: 'Experience', value: '25+ years across enterprise and startups' },
+  { label: 'Industries', value: 'Life Sciences, Healthcare, Retail, Automotive, B2B Tech' },
   { label: 'Geography', value: 'US, India, EU — global perspective' },
   { label: 'Podcast', value: 'HUMANity in the Age of AI' },
-  { label: 'Industries', value: 'Life Sciences, Retail, Auto, B2B Tech' },
 ]
 
-const pressBio = `Shubhalok Ghosh is a global marketing and customer experience leader with over 25 years of experience at the intersection of strategy, technology, and human connection.
+const pressBio = `Shubhalok Ghosh is a strategic advisor, fractional CMO, and human-first leader at the intersection of business, technology, and purpose. With 25 years of enterprise and startup leadership, he helps companies accelerate revenue through go-to-market strategy, brand positioning, and operational execution.
 
-As Chief Experience Officer at Tata Consultancy Services (TCS), Shubhalok led CX and marketing transformation programs for Fortune 500 clients across three continents — the US, India, and the EU. His industry depth spans life sciences, healthcare, retail, automotive (including Jaguar Land Rover), and B2B technology.
+As Chief Experience Officer and Chief Commercial Officer at Tata Consultancy Services (TCS), Shubhalok led the Experience Transformation Practice serving global enterprise clients including Johnson & Johnson, Eli Lilly, Bayer, Pfizer, Humana, Cigna, Jaguar Land Rover, H&M, and Marks & Spencer. His career spans senior roles at Johnson & Johnson and Merck, co-founding a dermatology biotech, and leading a company through a major acquisition.
 
-Today, Shubhalok serves as Fractional CMO at Amorbis.com, helping businesses under $25M access senior marketing leadership that drives measurable B2B growth. He also hosts the podcast "HUMANity in the Age of AI," which explores how leaders, marketers, and organizations can leverage technology while preserving the irreplaceable human elements of great business.
+Today, through Tin Taal Advisory, Shubhalok serves as a strategic advisor to early-stage founders and fractional CMO for growth-stage companies. He also hosts "HUMANity in the Age of AI" — a podcast exploring what it means to lead, build, and stay human in a world being transformed by artificial intelligence.
 
-Shubhalok speaks and advises on customer experience transformation, MarTech strategy, fractional leadership, and the human future of AI-driven marketing.`
+Shubhalok's commitment to human-centered leadership is rooted in an extraordinary family legacy: his grandparents were among Mahatma Gandhi's closest collaborators in India's independence movement, designing the national education system for independent India. That legacy of service, education, and purpose shapes everything he does.`
+
+const pressFeatures = [
+  {
+    publication: 'MMM Magazine (Medical Marketing & Media)',
+    feature: '"Agency 100" Annual Feature — Top 10 Design',
+    years: '2020–2024 (annual)',
+    note: 'Archive links available on request; some years are paywalled.',
+  },
+  {
+    publication: 'HotTopics',
+    feature: 'Global Top 100 Chief Experience Officers',
+    years: '2024',
+    note: '',
+  },
+  {
+    publication: 'Everest Group',
+    feature: '"Leader of the Year" — Life Sciences Digital, Data & Analytics',
+    years: '2024',
+    note: '',
+  },
+]
 
 export default function MediaKitPage() {
   return (
@@ -69,17 +90,14 @@ export default function MediaKitPage() {
               Media Kit
             </span>
             <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6 leading-tight">
-              Speaker. Podcast Host.<br />
-              <span className="text-brand-orange">CX Thought Leader.</span>
+              Strategic Advisor. Podcast Host.<br />
+              <span className="text-brand-orange">Human-First Leader.</span>
             </h1>
             <p className="text-gray-300 text-lg leading-relaxed mb-8">
               Everything you need to book Shubhalok for your podcast, stage, or media feature.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a
-                href="#"
-                className="btn-primary text-center"
-              >
+              <a href="#" className="btn-primary text-center">
                 Download Full Media Kit
               </a>
               <Link href="/contact" className="btn-outline text-center">
@@ -97,7 +115,6 @@ export default function MediaKitPage() {
             {/* Headshot area */}
             <div>
               <div className="grid grid-cols-2 gap-4">
-                {/* Primary headshot */}
                 <div className="col-span-2 aspect-[16/9] bg-gradient-to-br from-brand-navy to-brand-navy-light rounded-xl flex items-center justify-center shadow-lg">
                   <div className="text-center text-white p-6">
                     <div className="text-5xl mb-3">👤</div>
@@ -105,7 +122,6 @@ export default function MediaKitPage() {
                     <p className="text-xs text-gray-400 mt-1">[Replace with hi-res headshot]</p>
                   </div>
                 </div>
-                {/* Secondary headshots */}
                 <div className="aspect-square bg-brand-navy/10 rounded-lg flex items-center justify-center">
                   <div className="text-center p-4">
                     <div className="text-3xl mb-2">👤</div>
@@ -123,10 +139,7 @@ export default function MediaKitPage() {
                 High-resolution images available via download or on request.
               </p>
               <div className="text-center mt-4">
-                <a
-                  href="#"
-                  className="text-brand-orange text-sm font-medium hover:underline"
-                >
+                <a href="#" className="text-brand-orange text-sm font-medium hover:underline">
                   Download All Headshots (ZIP)
                 </a>
               </div>
@@ -139,7 +152,7 @@ export default function MediaKitPage() {
               <div className="space-y-3 mb-8">
                 {fastFacts.map((f) => (
                   <div key={f.label} className="flex gap-4 items-baseline">
-                    <span className="text-xs font-bold uppercase tracking-wide text-brand-orange w-32 flex-shrink-0">
+                    <span className="text-xs font-bold uppercase tracking-wide text-brand-orange w-36 flex-shrink-0">
                       {f.label}
                     </span>
                     <span className="text-gray-700 text-sm">{f.value}</span>
@@ -149,12 +162,11 @@ export default function MediaKitPage() {
 
               <div className="bg-brand-navy/5 rounded-xl p-5">
                 <h3 className="text-sm font-bold uppercase tracking-widest text-brand-navy mb-3">
-                  One-Line Bio
+                  One-Line Positioning
                 </h3>
                 <p className="text-gray-700 text-sm leading-relaxed italic">
-                  &ldquo;Former TCS Chief Experience Officer, Fractional CMO, and host of
-                  &lsquo;HUMANity in the Age of AI&rsquo; — helping businesses and leaders
-                  grow through human-centered marketing and CX strategy.&rdquo;
+                  &ldquo;Strategic Advisor. Fractional CMO. Human-first leader at the
+                  intersection of business, technology, and purpose.&rdquo;
                 </p>
               </div>
             </div>
@@ -185,8 +197,41 @@ export default function MediaKitPage() {
         </div>
       </section>
 
-      {/* Speaking topics */}
+      {/* Press Features */}
       <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="accent-bar mx-auto" />
+            <h2 className="section-heading mx-auto">Press &amp; Recognition</h2>
+          </div>
+          <div className="space-y-4">
+            {pressFeatures.map((item) => (
+              <div
+                key={item.feature}
+                className="card border-l-4 border-l-brand-orange"
+              >
+                <div className="flex flex-wrap items-start gap-3">
+                  <div className="flex-1">
+                    <span className="text-xs font-bold uppercase tracking-widest text-brand-orange">
+                      {item.years}
+                    </span>
+                    <h3 className="font-bold text-brand-navy text-base mt-0.5">
+                      {item.publication}
+                    </h3>
+                    <p className="text-gray-600 text-sm mt-1">{item.feature}</p>
+                    {item.note && (
+                      <p className="text-gray-400 text-xs mt-1 italic">{item.note}</p>
+                    )}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Speaking topics */}
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <div className="accent-bar mx-auto" />
@@ -219,15 +264,14 @@ export default function MediaKitPage() {
               <h2 className="font-serif text-3xl font-bold text-white mb-4">
                 Podcast: HUMANity in the Age of AI
               </h2>
-              <p className="text-gray-300 leading-relaxed mb-4">
-                A weekly show exploring human-centered leadership, marketing, and CX
-                at the intersection of AI and business. Targeting executives, marketers,
-                and business leaders.
+              <p className="text-gray-300 leading-relaxed mb-2 italic font-medium">
+                &ldquo;People are the future. Technology is the tool.&rdquo;
+              </p>
+              <p className="text-gray-300 leading-relaxed mb-5">
+                A show exploring what it means to lead, build, and stay human in a world
+                transformed by AI. Guests include founders, executives, and community leaders.
               </p>
               <ul className="space-y-2 text-sm text-gray-300">
-                <li className="flex items-center gap-2">
-                  <span className="text-brand-orange">▶</span> Weekly release cadence
-                </li>
                 <li className="flex items-center gap-2">
                   <span className="text-brand-orange">▶</span> 30–60 minute episodes
                 </li>
@@ -235,7 +279,7 @@ export default function MediaKitPage() {
                   <span className="text-brand-orange">▶</span> Available on all major platforms
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="text-brand-orange">▶</span> B2B executive audience
+                  <span className="text-brand-orange">▶</span> Founder and executive audience
                 </li>
               </ul>
             </div>
@@ -244,8 +288,8 @@ export default function MediaKitPage() {
                 <div className="text-4xl mb-4">🎙️</div>
                 <h3 className="text-white font-bold text-lg mb-2">Pitch as a Guest</h3>
                 <p className="text-gray-300 text-sm mb-6">
-                  Are you an executive, marketer, or CX leader with a compelling story?
-                  We&apos;d love to talk.
+                  Founders, executives, and community leaders with a compelling story
+                  about leading through change — let&apos;s talk.
                 </p>
                 <Link
                   href="/contact"
@@ -272,10 +316,7 @@ export default function MediaKitPage() {
             <Link href="/contact" className="btn-primary">
               Booking Inquiry
             </Link>
-            <a
-              href="#"
-              className="btn-outline"
-            >
+            <a href="#" className="btn-outline">
               Download Media Kit PDF
             </a>
           </div>

@@ -158,8 +158,8 @@ Strategic, mission-driven growth leader who turns human-led stories into scalabl
 ## Still Needed — Content To Add
 - [ ] Headshot photos
 - [ ] Resume / CV (to be uploaded as PDF for download)
-- [ ] Family history / personal background for About page
-- [ ] Podcast episode titles, guest names, Spotify/Apple links
+- [x] Family history / personal background for About page — Heritage + Creative Soul sections added
+- [ ] Podcast episode titles, guest names, Spotify/Apple links — Upcoming guests added; platform links TBD
 - [ ] Real email address (currently placeholder: hello@shubhalokghosh.com)
 - [ ] Formspree or email service for contact form
 - [ ] Case study details for Work page
@@ -240,10 +240,65 @@ Strategic, mission-driven growth leader who turns human-led stories into scalabl
 - Searched USPTO for trademark "HUMANity in the Age of AI" — no exact match found
 - ITU (Intent to Use) filing recommended for trademark protection
 
+### Session 4 — May 13, 2026
+
+#### Positioning Overhaul — Full Site Rebrand
+Applied comprehensive "Master Brief" — new positioning, content, and structure across all pages.
+
+**Positioning change (sitewide):**
+- New one-liner: "Strategic Advisor. Fractional CMO. Human-first leader at the intersection of business, technology, and purpose."
+- Removed all revenue figures ($300M, $500M, $100M deals, etc.) from every page
+- Removed all "lead generation" language from every page
+- Navigation tagline updated to "Strategic Advisor & Fractional CMO"
+
+**Homepage (app/page.tsx):**
+- Hero: "The Human Advantage" headline; new subheadline with correct positioning
+- CTAs changed to: "Work With Me" → /services | "Listen to the Podcast" → /work-podcast
+- Removed stats bar with revenue figures
+- Added "Trusted By" logos row: J&J, Pfizer, Eli Lilly, Bayer, JLR, H&M, M&S, Cigna, Humana
+- Added "Why Shubhalok" section with 3 differentiators (25 years, Founder DNA, Human-first legacy)
+- Credibility section bio rewritten without revenue figures
+- Services section: two lanes only (Fractional CMO + Strategic Advisory)
+- Podcast section: updated with tagline "People are the future. Technology is the tool."
+
+**About Page (app/about/page.tsx) — Three-Layer Rewrite:**
+- Layer 1 (Professional): Bio rewritten with correct career language, no revenue figures; client names added (J&J, Eli Lilly, Bayer, Pfizer, Humana, Cigna, JLR, H&M, M&S)
+- Timeline: 8 roles updated with brief-accurate descriptions, no revenue figures
+- Layer 2 (Heritage — NEW): "A Legacy of Purpose" section — Dr. Edwin & Asha Devi Aryanayakam, Gandhi/Shantiniketan/Nai Talim heritage; mother Mita Ghosh biography co-authorship noted
+- Layer 3 (Creative Soul — NEW): "Beyond Business" — tabla origin, Guruji Ustad Shafaatullah Khan, Imdadkhani gharana; Ganges Delta Blues section with band members, performances, and audio links (Fire in My Hands, Pontiac Baby via Google Drive)
+- Voices With Hands: expanded from single line to paragraph with church plant context
+- Faith as Foundation: new section added
+- Awards: MMM entry updated to "2020–2024 (annual)" with publication name
+
+**Services Page (app/services/page.tsx) — Two-Lane Structure:**
+- Complete rewrite from 4 services to 2 clear lanes
+- Lane 1: Fractional CMO (growth-stage, $2M–$25M, 6–12 months)
+- Lane 2: Strategic Advisory (early-stage, pre-seed through Series A, equity + fee available)
+- No lead generation language anywhere
+- Updated FAQ with equity structure question
+
+**Work/Podcast Page (app/work-podcast/page.tsx):**
+- Page renamed to "Podcast & Work"
+- Hero: "People are the future. Technology is the tool."
+- Podcast tagline added with Shubhalok's AI philosophy
+- Removed placeholder episode cards (EP 37–42)
+- Added 3 upcoming episodes: Steven Bonner (skinio.com/CTCA), Gary Miller (Human Charger/Olympic coach), Dawn Hewitt (Re-Lieved)
+- Case studies revised: removed fabricated metrics, replaced with directional outcomes; SYMPHONY case study added
+
+**Media Kit Page (app/media-kit/page.tsx):**
+- Press bio completely rewritten with new positioning and heritage paragraph
+- Fast facts updated (Strategic Advisor & Fractional CMO, Tin Taal Advisory)
+- One-line positioning updated
+- Added Press & Recognition section with MMM 2020–2024 (annual), HotTopics, Everest Group
+- Speaking topics updated — added Gandhi legacy topic, replaced CX/MarTech topics with founder/positioning topics
+
+**Build Status:** `npm run build` — ✓ All 9 routes compile cleanly, zero errors
+
 ### Next Session Goals
 - Confirm shubhalok.com is fully live and SSL active
 - Upload headshot photo and replace placeholder images
-- Add real podcast episode titles, guest names, Spotify/Apple links
+- Add real podcast episode links when episodes go live
 - Wire up contact form (Formspree or Resend)
 - Add resume PDF download to About and Media Kit pages
+- Replace Trusted By text row with actual greyscale SVG logos (when sourced)
 - Follow up on ITU trademark filing for "HUMANity in the Age of AI"

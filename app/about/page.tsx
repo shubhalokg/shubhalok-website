@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'Learn about Shubhalok Ghosh — former TCS Chief Experience Officer, Fractional CMO, podcast host, and executive coach with 25+ years of global marketing leadership.',
+    'Learn about Shubhalok Ghosh — strategic advisor, fractional CMO, podcast host, and human-first leader with 25+ years of global experience.',
 }
 
 const timeline = [
@@ -12,15 +12,15 @@ const timeline = [
     period: 'Apr 2025 – Present',
     role: 'Founder & Principal',
     org: 'Tin Taal Advisory & Leadership — King of Prussia, PA',
-    desc: 'Enabling founder-led organizations to scale revenue via AI-assisted GTM systems. Developing SMB founder interview podcast. Applying 25 years of enterprise growth leadership to the businesses that need it most.',
+    desc: 'Enable founder-led organizations to accelerate revenue through go-to-market strategy, brand positioning, and operational execution. Applying 25 years of enterprise growth leadership to the businesses that need it most.',
     color: 'brand-orange',
     highlight: 'Current',
   },
   {
     period: 'Nov 2018 – Jan 2025',
-    role: 'CXO / Senior Managing Director, XTG / TCS Interactive',
+    role: 'Chief Experience Officer / Chief Commercial Officer',
     org: 'Tata Consultancy Services — King of Prussia, PA',
-    desc: 'Built $300M+ global practice and $500M+ pipeline. Led $100M J&J platform deal, $100M Cigna transformation, and $35M Jaguar Land Rover GTM program. Launched SYMPHONY, an AI-powered content transformation accelerator. Led global teams across US, Europe, and India.',
+    desc: 'Built and led the Experience Transformation Practice serving global enterprise clients including Johnson & Johnson, Eli Lilly, Bayer, Pfizer, Humana, Cigna, Jaguar Land Rover, H&M, and Marks & Spencer. Led cross-functional US, EU, and India teams. Developed SYMPHONY, an AI-powered marketing transformation accelerator.',
     color: 'brand-navy',
     highlight: '6 Years',
   },
@@ -28,15 +28,15 @@ const timeline = [
     period: 'Jan 2013 – Dec 2017',
     role: 'CEO & Co-Founder',
     org: 'NayaDerm, LLC — Philadelphia, PA',
-    desc: 'Co-founded dermatology biotech. Secured Japan IP/pharma partnerships and led $10M Series A fundraising round.',
+    desc: 'Founded dermatology biotech startup. Secured IP agreement with Sapporo University Japan. Engaged leading US and Israeli venture capital firms through the fundraising process.',
     color: 'brand-green',
     highlight: '',
   },
   {
     period: 'Oct 2014 – Sep 2015',
-    role: 'CMO & VP Global Customer Operations',
+    role: 'Chief Marketing Officer & VP Global Customer Operations',
     org: 'Therakos, Inc. — West Chester, PA',
-    desc: 'Led $200M oncology and medical device business. Drove 15% international revenue growth. Key executive in $1.3B acquisition by Mallinckrodt.',
+    desc: 'Integral executive team member through the company\'s $1.3B acquisition by Mallinckrodt. Led OUS sales turnaround and global brand strategy for oncology drug and medical device portfolio.',
     color: 'brand-green',
     highlight: '',
   },
@@ -44,31 +44,31 @@ const timeline = [
     period: 'Oct 2012 – Oct 2014',
     role: 'Head of Business Development',
     org: 'Accunostics Ltd. — Forres, UK',
-    desc: 'Led BD and licensing strategy for SMBG diagnostic platform. Secured out-licensing deal with J&J/Lifescan.',
+    desc: 'Led licensing strategy for SMBG diagnostic platform. Out-licensed technology to Johnson & Johnson/LifeScan.',
     color: 'brand-green',
     highlight: '',
   },
   {
     period: 'Apr 2008 – Jul 2012',
-    role: 'VP Business Development & Sales / APAC Board Member',
-    org: 'Johnson & Johnson / Lifescan — Chesterbrook, PA',
-    desc: 'Directed digital strategy for $4B diabetes franchise. APAC Board Member. Vetted 60+ partnerships and M&A targets across Asia-Pacific.',
+    role: 'VP Business Development, Board Member APAC Franchise',
+    org: 'Johnson & Johnson / Diabetes Care — Chesterbrook, PA',
+    desc: 'Led franchise business development and global digital health strategy. Conducted due diligence on 100+ companies. Created mHealth strategic partnership with Korea\'s leading electronics company.',
     color: 'brand-navy',
     highlight: '',
   },
   {
     period: 'Apr 2005 – Mar 2008',
-    role: 'Director Respiratory Marketing & Global Marketing Leader, Simponi®',
-    org: 'Johnson & Johnson Bio',
-    desc: 'Co-Therapeutic Area Head for 8 Phase I–II candidates. Directed Phase III strategy for Simponi® immunology franchise, which went on to achieve $1B+ annual revenue.',
+    role: 'Global Marketing Leader, Simponi® / Director Immunology Marketing',
+    org: 'Johnson & Johnson — Horsham, PA',
+    desc: 'Directed pre-launch strategy and brand vision for Simponi® (now a $1B+ drug). Led J&J Respiratory Strategic Plan.',
     color: 'brand-navy',
     highlight: '',
   },
   {
     period: 'Nov 2000 – Mar 2005',
-    role: 'GM Vaccine Operations Japan, Australia & India Strategy',
-    org: 'Merck & Co.',
-    desc: 'Managed $100M revenue business. Signed landmark $9B HPV vaccine agreement with CSL. Architected India 10-year market entry plan and established the India subsidiary in 2005.',
+    role: 'Director, Vaccines',
+    org: 'Merck & Co., Inc.',
+    desc: 'Led India Vaccine Strategy Team and created 10-year market entry plan. GM-level role for Japan and Australia vaccine operations. Signed HPV Vaccine Agreement with CSL.',
     color: 'brand-green',
     highlight: '',
   },
@@ -79,7 +79,7 @@ const awards = [
   { year: '2024', title: 'Everest "Leader of the Year" — Life Sciences Digital, Data & Analytics' },
   { year: '2024', title: 'Adobe Experience Maker Award' },
   { year: '2024', title: 'TCS INNOVISTA Design Honor Award — JLR GTM Dealer Transformation' },
-  { year: 'Prior', title: 'MMM Top 100 — Top 10 Design Award' },
+  { year: '2020–2024', title: 'MMM Magazine (Medical Marketing & Media) "Agency 100" — Top 10 Design (annual feature)' },
 ]
 
 const education = [
@@ -95,58 +95,6 @@ const education = [
   },
 ]
 
-const expertise = [
-  {
-    category: 'Marketing Strategy',
-    items: [
-      'B2B Demand Generation',
-      'Brand Positioning',
-      'Go-to-Market Strategy',
-      'Content Marketing',
-      'Account-Based Marketing',
-    ],
-  },
-  {
-    category: 'Customer Experience',
-    items: [
-      'CX Transformation',
-      'Journey Mapping',
-      'Voice of the Customer',
-      'Service Design',
-      'NPS & CX Metrics',
-    ],
-  },
-  {
-    category: 'MarTech & Digital',
-    items: [
-      'MarTech Stack Design',
-      'Marketing Automation',
-      'Analytics & Attribution',
-      'AI in Marketing',
-      'Digital Transformation',
-    ],
-  },
-  {
-    category: 'Leadership',
-    items: [
-      'Fractional CMO',
-      'Executive Coaching',
-      'Global Team Leadership',
-      'Agency Management',
-      'Thought Leadership',
-    ],
-  },
-]
-
-const industries = [
-  { name: 'Life Sciences & Healthcare', icon: '🧬' },
-  { name: 'Retail & Consumer', icon: '🛍️' },
-  { name: 'Automotive', icon: '🚗' },
-  { name: 'B2B Technology', icon: '💻' },
-  { name: 'Financial Services', icon: '📈' },
-  { name: 'Professional Services', icon: '🤝' },
-]
-
 export default function AboutPage() {
   return (
     <>
@@ -158,24 +106,23 @@ export default function AboutPage() {
               About Shubhalok
             </span>
             <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6 leading-tight">
-              Merck. J&amp;J. TCS.<br />
-              <span className="text-brand-orange">25 years. One conviction:</span><br />
-              business is human.
+              Strategic Advisor. Fractional CMO.<br />
+              <span className="text-brand-orange">Human-first leader.</span>
             </h1>
             <p className="text-gray-300 text-lg leading-relaxed">
-              From vaccine strategy at Merck to a $300M+ practice at TCS, my career spans
-              pharma, biotech, life sciences, and digital transformation — always in pursuit
-              of the same truth: the best strategy keeps the human at the center.
+              At the intersection of business, technology, and purpose — with 25 years of
+              enterprise and startup leadership, a family legacy rooted in Gandhi&apos;s
+              independence movement, and a conviction that the best strategy keeps the
+              human at the center.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Bio section */}
+      {/* Layer 1: Professional Bio */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-14 items-start">
-            {/* Headshot placeholder */}
             <div className="relative sticky top-28">
               <div className="aspect-[4/5] bg-gradient-to-br from-brand-navy to-brand-navy-light rounded-2xl overflow-hidden flex items-end justify-center shadow-xl">
                 <div className="text-center p-8 text-white">
@@ -185,69 +132,61 @@ export default function AboutPage() {
                   </p>
                 </div>
               </div>
-              {/* Floating badges */}
               <div className="absolute top-6 -right-4 bg-brand-orange text-white rounded-lg px-4 py-2 shadow-lg text-sm font-semibold">
-                Former TCS CXO
+                Strategic Advisor
               </div>
               <div className="absolute bottom-10 -left-4 bg-brand-green text-white rounded-lg px-4 py-2 shadow-lg text-sm font-semibold">
                 Podcast Host
               </div>
             </div>
 
-            {/* Bio text */}
             <div>
               <div className="accent-bar" />
-              <h2 className="section-heading">My Story</h2>
+              <h2 className="section-heading">The Professional</h2>
 
               <div className="prose prose-gray max-w-none space-y-4 text-gray-600 leading-relaxed">
                 <p>
                   My career began at{' '}
-                  <strong className="text-brand-navy">Merck</strong>, where I spent five
-                  years as General Manager of Vaccine Operations across Japan, Australia, and
-                  India. I signed a landmark $9B HPV vaccine agreement with CSL and built the
-                  market entry strategy that established Merck&apos;s India subsidiary in 2005.
+                  <strong className="text-brand-navy">Merck</strong>, where I led vaccine strategy
+                  across India, Japan, and Australia — including the landmark HPV vaccine agreement
+                  with CSL and a ten-year plan that established Merck&apos;s India subsidiary.
                 </p>
                 <p>
                   From there, seven years at{' '}
-                  <strong className="text-brand-navy">Johnson &amp; Johnson</strong> — first
-                  leading global marketing for the Simponi® immunology franchise (which achieved
-                  $1B+ in annual revenue), then as VP of Business Development and APAC Board
-                  Member for Lifescan, directing digital strategy for a $4B diabetes business
-                  and vetting 60+ partnership and M&amp;A targets.
+                  <strong className="text-brand-navy">Johnson &amp; Johnson</strong> — first leading
+                  global marketing for the Simponi® immunology franchise through pre-launch to
+                  market, then as VP of Business Development and APAC Board Member for Diabetes Care,
+                  where I directed global digital health strategy and created a mHealth partnership
+                  with Korea&apos;s leading electronics company.
                 </p>
                 <p>
                   I also co-founded{' '}
-                  <strong className="text-brand-navy">NayaDerm</strong>, a dermatology
-                  biotech, where I secured Japan IP/pharma partnerships and led a $10M Series A.
-                  Concurrently, I served as CMO at{' '}
-                  <strong className="text-brand-navy">Therakos</strong> — a $200M oncology
-                  business — driving 15% international growth and playing a key role in a $1.3B
-                  acquisition by Mallinckrodt.
+                  <strong className="text-brand-navy">NayaDerm</strong>, a dermatology biotech,
+                  securing an IP agreement with Sapporo University Japan and engaging leading
+                  US and Israeli venture capital firms. Concurrently, I served as CMO at{' '}
+                  <strong className="text-brand-navy">Therakos</strong> — an integral executive
+                  team member through the company&apos;s $1.3B acquisition by Mallinckrodt.
                 </p>
                 <p>
                   At{' '}
-                  <strong className="text-brand-navy">Tata Consultancy Services</strong>, I
-                  became CXO and Senior Managing Director — building a $300M+ global practice,
-                  generating $500M+ in pipeline, and leading landmark engagements: a $100M
-                  J&amp;J platform transformation, a $100M Cigna program, and a $35M Jaguar
-                  Land Rover GTM that won the 2024 TCS INNOVISTA Design Honor Award.
+                  <strong className="text-brand-navy">Tata Consultancy Services</strong>, I became
+                  Chief Experience Officer and Chief Commercial Officer — building and leading the
+                  Experience Transformation Practice for global enterprise clients including
+                  Johnson &amp; Johnson, Eli Lilly, Bayer, Pfizer, Humana, Cigna, Jaguar Land
+                  Rover, H&amp;M, and Marks &amp; Spencer. I also developed SYMPHONY, an
+                  AI-powered marketing transformation accelerator.
                 </p>
                 <p>
                   Today, through{' '}
-                  <strong className="text-brand-navy">Tin Taal Advisory</strong>, I bring
-                  that same rigor to founder-led organizations — building AI-assisted GTM
-                  systems that scale revenue. I also host{' '}
+                  <strong className="text-brand-navy">Tin Taal Advisory</strong>, I work as a
+                  strategic advisor to early-stage founders and fractional CMO for growth-stage
+                  companies — helping them build the go-to-market strategy, brand positioning,
+                  and operational execution to accelerate revenue. I also host{' '}
                   <em className="text-brand-orange font-semibold">
                     HUMANity in the Age of AI
                   </em>
-                  , a podcast exploring the irreplaceable human elements of leadership,
-                  marketing, and CX in an AI-driven world.
-                </p>
-                <p>
-                  Outside of work, I am a classically trained tabla player and active
-                  performer with Ganges Delta Blues, and the founder of{' '}
-                  <strong className="text-brand-navy">Voices with Hands Foundation</strong>,
-                  supporting deaf communities in Colombia.
+                  , a podcast exploring what it means to lead and build in a world being
+                  transformed by artificial intelligence.
                 </p>
               </div>
 
@@ -264,7 +203,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Timeline */}
+      {/* Career Timeline */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
@@ -272,12 +211,10 @@ export default function AboutPage() {
             <h2 className="section-heading mx-auto">Career Journey</h2>
           </div>
           <div className="relative">
-            {/* Vertical line */}
             <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gray-200 hidden sm:block" />
             <div className="space-y-8">
               {timeline.map((item, i) => (
                 <div key={i} className="flex gap-6 items-start">
-                  {/* Dot */}
                   <div className="hidden sm:flex flex-shrink-0 w-16 justify-center pt-1">
                     <div
                       className={`w-4 h-4 rounded-full border-2 border-white shadow-md bg-${item.color}`}
@@ -294,7 +231,9 @@ export default function AboutPage() {
                         </span>
                       )}
                     </div>
-                    <h3 className="text-base font-bold text-brand-navy leading-snug">{item.role}</h3>
+                    <h3 className="text-base font-bold text-brand-navy leading-snug">
+                      {item.role}
+                    </h3>
                     <p className="text-brand-green font-medium text-sm mb-2">{item.org}</p>
                     <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
                   </div>
@@ -305,18 +244,225 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Awards */}
+      {/* Layer 2: Heritage — A Legacy of Purpose */}
       <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="accent-bar" />
+          <h2 className="section-heading mb-2">A Legacy of Purpose</h2>
+          <p className="text-brand-orange font-medium italic mb-10">
+            Where it all begins
+          </p>
+
+          <div className="prose prose-gray max-w-none space-y-5 text-gray-600 leading-relaxed">
+            <p>
+              Shubhalok&apos;s roots run deep into one of history&apos;s most meaningful movements.
+              His grandparents,{' '}
+              <strong className="text-brand-navy">Dr. Edwin Williams Aryanayakam</strong> and{' '}
+              <strong className="text-brand-navy">Asha Devi Aryanayakam</strong>, were freedom
+              fighters in India&apos;s independence movement and among Mahatma Gandhi&apos;s
+              closest educational collaborators.
+            </p>
+            <p>
+              Dr. Aryanayakam worked with Nobel Laureate Rabindranath Tagore for 15 years at
+              Shantiniketan. Asha Devi became the{' '}
+              <strong className="text-brand-navy">first woman chancellor of Banaras Hindu University</strong>.
+            </p>
+            <p>
+              In 1936, Gandhi personally invited them to Sevagram Ashram to design and lead the
+              national education system for India&apos;s villages — a philosophy called{' '}
+              <em>Nai Talim</em> (&ldquo;New Education&rdquo;), which became the educational
+              foundation for independent India. They trained over 10,000 teachers across the country.
+            </p>
+            <p>
+              Shubhalok&apos;s mother,{' '}
+              <strong className="text-brand-navy">Mita Ghosh</strong>, grew up in
+              Gandhi&apos;s Sevagram Ashram, shaped by these same principles of service,
+              forgiveness, and equal respect for all faiths. Shubhalok is currently co-authoring
+              a biography of his mother —{' '}
+              <em className="text-brand-orange">
+                Mita Ghosh: A Life of Forgiveness, Faith, and Resilience
+              </em>{' '}
+              — a story of extraordinary resilience rooted in Gandhi&apos;s principles.
+            </p>
+            <p>
+              This legacy of education, service, and human-centered change is the foundation
+              of everything Shubhalok does — including his podcast,{' '}
+              <em className="font-semibold">HUMANity in the Age of AI</em>.
+            </p>
+          </div>
+
+          <div className="mt-10 bg-brand-navy/5 border border-brand-navy/10 rounded-2xl p-7">
+            <blockquote className="font-serif text-brand-navy text-xl italic leading-relaxed">
+              &ldquo;The best strategy keeps the human at the center. That&apos;s not a business
+              philosophy — it&apos;s a family inheritance.&rdquo;
+            </blockquote>
+            <p className="text-sm text-gray-500 mt-3">— Shubhalok Ghosh</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Layer 3: Creative Soul — Ganges Delta Blues */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="accent-bar" />
+          <h2 className="section-heading mb-2">Beyond Business</h2>
+          <p className="text-brand-orange font-medium italic mb-10">
+            The creative soul
+          </p>
+
+          <div className="prose prose-gray max-w-none space-y-5 text-gray-600 leading-relaxed">
+            <p>
+              Shubhalok began performing tabla at age four, alongside his mother — a classically
+              trained bhajan singer who studied at Shantiniketan. He later undertook formal study
+              with{' '}
+              <strong className="text-brand-navy">Guruji Ustad Shafaatullah Khan</strong>, a
+              master of sitar and tabla and lineage bearer of the{' '}
+              <em>Imdadkhani gharana</em>, descending from Imrat Khan and Vilayat Khan. He has
+              performed internationally.
+            </p>
+          </div>
+
+          {/* Ganges Delta Blues */}
+          <div className="mt-10 bg-brand-navy text-white rounded-2xl p-8">
+            <div className="flex flex-col md:flex-row gap-8 items-start">
+              <div className="flex-1">
+                <span className="inline-block text-brand-orange font-medium text-xs tracking-widest uppercase mb-3">
+                  Musical Project
+                </span>
+                <h3 className="font-serif text-2xl font-bold text-white mb-3">
+                  Ganges Delta Blues
+                </h3>
+                <p className="text-gray-300 leading-relaxed mb-4">
+                  An intimate cross-cultural trio weaving Indian classical tabla, Delta
+                  bottleneck blues, harmonica, and bass into a warm, improvisational
+                  raga-blues sound.
+                </p>
+                <ul className="space-y-1.5 text-sm text-gray-300 mb-5">
+                  <li className="flex items-center gap-2">
+                    <span className="text-brand-orange">▶</span>
+                    Shakey Lyman — bottleneck guitar, harmonica
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="text-brand-orange">▶</span>
+                    Bob Solarz — bass
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="text-brand-orange">▶</span>
+                    Performed at the Vision &amp; Grit Festival, Connecticut
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="text-brand-orange">▶</span>
+                    Recorded with Stephen D. Ambrose (known for his work with Stevie Wonder)
+                  </li>
+                </ul>
+              </div>
+              <div className="md:w-64 w-full flex-shrink-0">
+                <p className="text-xs font-bold uppercase tracking-widest text-brand-orange mb-3">
+                  Listen
+                </p>
+                <div className="space-y-3">
+                  <a
+                    href="https://drive.google.com/file/d/1j6Bc8pjF5lgbkTANoz-dNIALUHDirSKG/view"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-3 bg-white/10 border border-white/20 hover:bg-white/20 rounded-lg px-4 py-3 transition-colors duration-150"
+                  >
+                    <div className="w-8 h-8 rounded-full bg-brand-orange flex items-center justify-center flex-shrink-0">
+                      <svg className="w-3.5 h-3.5 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p className="text-white text-sm font-semibold">Fire in My Hands</p>
+                      <p className="text-gray-400 text-xs">Listen on Google Drive</p>
+                    </div>
+                  </a>
+                  <a
+                    href="https://drive.google.com/file/d/1len16EpIcn9v72wIC8w0J9jwszpUDnKu/view"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-3 bg-white/10 border border-white/20 hover:bg-white/20 rounded-lg px-4 py-3 transition-colors duration-150"
+                  >
+                    <div className="w-8 h-8 rounded-full bg-brand-orange flex items-center justify-center flex-shrink-0">
+                      <svg className="w-3.5 h-3.5 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p className="text-white text-sm font-semibold">Pontiac Baby</p>
+                      <p className="text-gray-400 text-xs">Listen on Google Drive</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Voices With Hands + Faith */}
+      <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid md:grid-cols-2 gap-10">
+            {/* Voices With Hands */}
+            <div>
+              <div className="accent-bar" />
+              <h2 className="text-2xl font-serif font-bold text-brand-navy mb-4">
+                Voices With Hands
+              </h2>
+              <div className="space-y-3 text-gray-600 leading-relaxed text-sm">
+                <p>
+                  Shubhalok is the Founder of{' '}
+                  <strong className="text-brand-navy">Voices With Hands</strong>, a community
+                  initiative focused on leadership and inclusion for the Deaf Community in Colombia.
+                </p>
+                <p>
+                  After six mission trips to Colombia through{' '}
+                  <strong className="text-brand-navy">Tenth Presbyterian Church</strong> in
+                  Philadelphia — reflecting a 20-year relationship between the church and
+                  Colombia — Shubhalok led the strategy for a new church plant launching in
+                  June 2025.
+                </p>
+              </div>
+            </div>
+
+            {/* Faith as Foundation */}
+            <div>
+              <div className="accent-bar" />
+              <h2 className="text-2xl font-serif font-bold text-brand-navy mb-4">
+                Faith as Foundation
+              </h2>
+              <div className="space-y-3 text-gray-600 leading-relaxed text-sm">
+                <p>
+                  Faith and service are foundational to how Shubhalok leads, advises, and lives.
+                  This thread runs through everything — from his grandparents&apos; work alongside
+                  Gandhi to his own mission work in Colombia.
+                </p>
+                <p>
+                  It is this orientation — toward service, toward the human, toward
+                  purpose — that shapes his work with founders and organizations, and that
+                  gives the podcast{' '}
+                  <em className="font-semibold text-brand-orange">HUMANity in the Age of AI</em>{' '}
+                  its animating conviction.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Awards */}
+      <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <div className="accent-bar mx-auto" />
-            <h2 className="section-heading mx-auto">Recognition & Awards</h2>
+            <h2 className="section-heading mx-auto">Recognition &amp; Awards</h2>
           </div>
           <div className="space-y-3">
             {awards.map((award) => (
               <div
                 key={award.title}
-                className="flex items-center gap-4 bg-gray-50 border border-gray-100 rounded-xl px-6 py-4 hover:border-brand-orange/30 transition-colors"
+                className="flex items-center gap-4 bg-white border border-gray-100 rounded-xl px-6 py-4 hover:border-brand-orange/30 transition-colors"
               >
                 <span className="text-2xl flex-shrink-0">🏆</span>
                 <div>
@@ -331,111 +477,21 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Expertise grid */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-14">
-            <div className="accent-bar mx-auto" />
-            <h2 className="section-heading mx-auto">Areas of Expertise</h2>
-          </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {expertise.map((area) => (
-              <div key={area.category} className="card">
-                <h3 className="text-base font-bold text-brand-navy mb-4 pb-3 border-b border-gray-100">
-                  {area.category}
-                </h3>
-                <ul className="space-y-2">
-                  {area.items.map((item) => (
-                    <li key={item} className="flex items-center gap-2 text-sm text-gray-600">
-                      <span className="w-1.5 h-1.5 rounded-full bg-brand-orange flex-shrink-0" />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Industries */}
-      <section className="py-20 bg-brand-navy">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="font-serif text-3xl font-bold text-white mb-3">
-              Industry Experience
-            </h2>
-            <p className="text-gray-300 text-base">
-              Deep domain knowledge across sectors where CX and brand differentiation matter most.
-            </p>
-          </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-            {industries.map((ind) => (
-              <div
-                key={ind.name}
-                className="bg-white/10 border border-white/20 rounded-xl p-4 text-center hover:bg-white/20 transition-colors duration-200"
-              >
-                <div className="text-3xl mb-2">{ind.icon}</div>
-                <p className="text-white text-xs font-medium leading-snug">{ind.name}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Education & Community */}
+      {/* Education */}
       <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-10">
-            {/* Education */}
-            <div>
-              <div className="accent-bar" />
-              <h2 className="text-2xl font-serif font-bold text-brand-navy mb-6">Education</h2>
-              <div className="space-y-4">
-                {education.map((ed) => (
-                  <div key={ed.degree} className="card">
-                    <h3 className="font-bold text-brand-navy text-base">{ed.degree}</h3>
-                    <p className="text-brand-green font-medium text-sm mt-0.5">{ed.school}</p>
-                    {ed.detail && (
-                      <p className="text-gray-500 text-xs mt-2 italic">{ed.detail}</p>
-                    )}
-                  </div>
-                ))}
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="accent-bar" />
+          <h2 className="text-2xl font-serif font-bold text-brand-navy mb-6">Education</h2>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {education.map((ed) => (
+              <div key={ed.degree} className="card">
+                <h3 className="font-bold text-brand-navy text-base">{ed.degree}</h3>
+                <p className="text-brand-green font-medium text-sm mt-0.5">{ed.school}</p>
+                {ed.detail && (
+                  <p className="text-gray-500 text-xs mt-2 italic">{ed.detail}</p>
+                )}
               </div>
-            </div>
-
-            {/* Community */}
-            <div>
-              <div className="accent-bar" />
-              <h2 className="text-2xl font-serif font-bold text-brand-navy mb-6">
-                Community &amp; Personal
-              </h2>
-              <div className="space-y-3">
-                {[
-                  {
-                    icon: '🤝',
-                    text: 'Founder, Voices with Hands Foundation — deaf community initiative in Colombia',
-                  },
-                  {
-                    icon: '✝️',
-                    text: 'Tenth Presbyterian Church — Mercy Commission & Global Missions; 6 mission trips to Colombia',
-                  },
-                  {
-                    icon: '🥁',
-                    text: 'Classically trained tabla (Indian percussion) player — active performer with Ganges Delta Blues (2025–2026)',
-                  },
-                  {
-                    icon: '🎓',
-                    text: 'Strategic career advisor, Boston University Questrom School of Business MBA program',
-                  },
-                ].map((item) => (
-                  <div key={item.text} className="flex items-start gap-3 text-sm text-gray-600">
-                    <span className="text-xl flex-shrink-0">{item.icon}</span>
-                    <span className="leading-relaxed">{item.text}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
@@ -446,8 +502,8 @@ export default function AboutPage() {
           <div className="accent-bar mx-auto" />
           <h2 className="section-heading mx-auto">Let&apos;s Build Something Together</h2>
           <p className="section-subheading mx-auto text-center mb-8">
-            Whether you need fractional marketing leadership, an executive coach, or a
-            podcast guest who has seen marketing from both sides — I&apos;m here.
+            Whether you need fractional marketing leadership, a strategic advisor, or a
+            podcast guest with a story worth telling — I&apos;m here.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="btn-primary">

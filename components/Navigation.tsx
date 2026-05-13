@@ -42,7 +42,7 @@ export default function Navigation() {
               Shubhalok Ghosh
             </span>
             <span className="text-brand-orange text-xs font-medium tracking-widest uppercase">
-              Fractional CMO &amp; CX Leader
+              Strategic Advisor &amp; Fractional CMO
             </span>
           </Link>
 
