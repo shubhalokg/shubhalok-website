@@ -296,30 +296,34 @@ Applied comprehensive "Master Brief" — new positioning, content, and structure
 
 ### Session 5 — June 4, 2026
 
-#### Password Gate — Full Site Protection
-Added a password gate to the entire site for the "coming soon" period.
+#### Password Protection Added to shubhalok.com
 
-**Architecture change (Next.js route groups):**
-- Stripped Navigation and Footer from `app/layout.tsx` (now bare HTML wrapper only)
-- Created `app/(main)/layout.tsx` — wraps all real site pages with Nav/Footer
-- Moved all 6 pages into `app/(main)/` route group (URLs unchanged)
+Added full password protection to the entire site for the coming soon period.
 
 **New files created:**
-- `middleware.ts` — intercepts every request; redirects to `/password` if `sg_preview` cookie is missing or wrong; allows `/password` and `/api/unlock` to pass through
-- `app/password/page.tsx` — full-screen branded password page (Navy background, Orange/Green accents, "Shubhalok Ghosh" headline, "Site coming soon. Enter password to preview.")
-- `app/api/unlock/route.ts` — POST endpoint; validates against `ComingSoon2025`; sets `sg_preview=unlocked` cookie (HttpOnly, 7-day expiry) on success
+- `middleware.ts` — intercepts all requests; redirects unauthenticated visitors to `/password`; allows `/password` and `/api/unlock` to pass through
+- `app/password/page.tsx` — branded password gate page (Navy background, Orange/Green/Navy brand colors, "Shubhalok Ghosh" headline, "Site coming soon. Enter password to preview.")
+- `app/api/unlock/route.ts` — validates password `ComingSoon2025`; sets `sg_preview=unlocked` cookie valid for 7 days
+- `app/(main)/layout.tsx` — new route group layout wrapping Nav/Footer for all site pages
+
+**Architecture change:**
+- All 6 pages moved to `app/(main)/` route group (URLs unchanged)
+- `app/layout.tsx` stripped to bare HTML wrapper so password page renders without Nav/Footer
 
 **Password:** `ComingSoon2025`
-**Cookie:** `sg_preview=unlocked` (7-day session, HttpOnly)
+**Cookie:** `sg_preview=unlocked` — HttpOnly, valid 7 days
+**To remove gate:** Delete `middleware.ts`
+
+**Site is live and password protected at shubhalok.com**
 
 **Build status:** `npm run build` — ✓ All 11 routes compile cleanly, zero errors
 
 ### Next Session Goals
-- Confirm shubhalok.com is fully live and SSL active
-- Upload headshot photo and replace placeholder images
+- Update content across all pages
+- Add headshot photo and replace placeholder images
 - Add real podcast episode links when episodes go live
 - Wire up contact form (Formspree or Resend)
 - Add resume PDF download to About and Media Kit pages
 - Replace Trusted By text row with actual greyscale SVG logos (when sourced)
 - Follow up on ITU trademark filing for "HUMANity in the Age of AI"
-- Remove password gate when site is ready to go public
+- Remove password gate (delete middleware.ts) when ready to go public
