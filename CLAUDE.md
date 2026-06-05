@@ -296,7 +296,7 @@ Applied comprehensive "Master Brief" — new positioning, content, and structure
 
 ### Session 5 — June 4, 2026
 
-#### Password Protection Added to shubhalok.com
+#### Part 1: Password Gate — Full Site Protection
 
 Added full password protection to the entire site for the coming soon period.
 
@@ -314,16 +314,37 @@ Added full password protection to the entire site for the coming soon period.
 **Cookie:** `sg_preview=unlocked` — HttpOnly, valid 7 days
 **To remove gate:** Delete `middleware.ts`
 
+#### Part 2: Homepage Positioning Overhaul
+
+Updated homepage for investor, CEO, and founder audiences.
+
+**Positioning decision:**
+- Lead with **Commercial Architect** and **Growth Executive** framing — not Fractional CMO — especially for investor audience
+- SkinIO funding raise opportunity active; homepage must speak to investors
+
+**Key investor proof points surfaced:**
+- $1.3B acquisition (Therakos/Mallinckrodt)
+- $9B partnership deal (Merck/CSL — HPV vaccine)
+- $100M+ practice built from zero (TCS)
+
+**Changes made to `app/(main)/page.tsx`:**
+- **Hero headline:** "I turn executive vision into repeatable commercial momentum."
+- **Hero subheadline:** "Growth Executive for Founder-Led Companies | AI-Enabled GTM | Fractional CMO & Strategic Advisor"
+- **Hero credentials badge:** TCS · J&J · Merck · Jaguar Land Rover · Therakos
+- **Stats bar (new section added):** $100M+ Practice Scaled · $500M+ Pipeline Built · $1.3B Acquisition Led
+- **Trusted By:** Updated to 6 clients as greyscale pill badges — Johnson & Johnson, Merck, Tata Consultancy Services, Jaguar Land Rover, Therakos, Cigna
+- **Who I Am bio:** "Executive growth leader with 20+ years building and scaling go-to-market engines across global organizations and founder-led businesses. Former CXO at TCS, commercial leader at J&J and Merck. Now working with founder-led technology companies at the intersection of growth, creativity, and AI."
+
 **Site is live and password protected at shubhalok.com**
 
 **Build status:** `npm run build` — ✓ All 11 routes compile cleanly, zero errors
 
 ### Next Session Goals
-- Update content across all pages
-- Add headshot photo and replace placeholder images
-- Add real podcast episode links when episodes go live
+- Add real headshot photo (replace placeholder)
+- Upload actual greyscale SVG client logos to Trusted By section
+- Update About page with investor-focused bio
+- Add real podcast episode titles and links
 - Wire up contact form (Formspree or Resend)
-- Add resume PDF download to About and Media Kit pages
-- Replace Trusted By text row with actual greyscale SVG logos (when sourced)
+- Set up professional email at shubhalok.com
+- Remove password gate (delete `middleware.ts`) when ready to go public
 - Follow up on ITU trademark filing for "HUMANity in the Age of AI"
-- Remove password gate (delete middleware.ts) when ready to go public

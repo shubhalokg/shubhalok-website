@@ -7,14 +7,17 @@ export const metadata: Metadata = {
 
 const trustedBy = [
   'Johnson & Johnson',
-  'Pfizer',
-  'Eli Lilly',
-  'Bayer',
+  'Merck',
+  'Tata Consultancy Services',
   'Jaguar Land Rover',
-  'H&M',
-  'Marks & Spencer',
+  'Therakos',
   'Cigna',
-  'Humana',
+]
+
+const stats = [
+  { value: '$100M+', label: 'Practice Scaled' },
+  { value: '$500M+', label: 'Pipeline Built' },
+  { value: '$1.3B',  label: 'Acquisition Led' },
 ]
 
 const differentiators = [
@@ -64,29 +67,27 @@ export default function HomePage() {
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 md:py-40">
           <div className="max-w-3xl">
+            {/* Credential badges */}
             <div className="flex flex-wrap gap-2 mb-6">
               <span className="inline-block text-brand-orange font-medium text-xs tracking-widest uppercase border border-brand-orange/40 px-3 py-1 rounded-full">
                 Top 100 Global CXO 2024
               </span>
               <span className="inline-block text-gray-300 font-medium text-xs tracking-widest uppercase border border-white/20 px-3 py-1 rounded-full">
-                TCS · J&amp;J · Merck
-              </span>
-              <span className="inline-block text-gray-300 font-medium text-xs tracking-widest uppercase border border-white/20 px-3 py-1 rounded-full">
-                Boston University MBA
+                TCS · J&amp;J · Merck · Jaguar Land Rover · Therakos
               </span>
             </div>
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-white leading-tight mb-6">
-              The Human<br />
-              <span className="text-brand-orange">Advantage</span>
+
+            {/* Headline */}
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white leading-tight mb-6">
+              I turn executive vision into{' '}
+              <span className="text-brand-orange">repeatable commercial momentum.</span>
             </h1>
-            <p className="text-gray-300 text-xl leading-relaxed mb-10 max-w-2xl">
-              Strategic advisor to early-stage founders. Fractional CMO for growth-stage companies.
-              Host of{' '}
-              <span className="text-white font-semibold italic">
-                HUMANity in the Age of AI
-              </span>
-              .
+
+            {/* Subheadline */}
+            <p className="text-gray-300 text-lg md:text-xl leading-relaxed mb-10 max-w-2xl">
+              Growth Executive for Founder-Led Companies&nbsp;|&nbsp;AI-Enabled GTM&nbsp;|&nbsp;Fractional CMO &amp; Strategic Advisor
             </p>
+
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/services" className="btn-primary text-center">
                 Work With Me
@@ -99,17 +100,35 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Stats Bar */}
+      <section className="bg-brand-navy border-t border-white/10 py-10">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-3 gap-6 text-center">
+            {stats.map((stat) => (
+              <div key={stat.label}>
+                <div className="text-3xl md:text-4xl font-serif font-bold text-brand-orange">
+                  {stat.value}
+                </div>
+                <div className="text-gray-300 text-xs md:text-sm mt-1 uppercase tracking-widest">
+                  {stat.label}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Trusted By */}
       <section className="bg-white border-b border-gray-100 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-center text-xs font-bold uppercase tracking-widest text-gray-400 mb-8">
             Trusted by world-class organizations
           </p>
-          <div className="flex flex-wrap justify-center items-center gap-x-10 gap-y-5">
+          <div className="flex flex-wrap justify-center items-center gap-3">
             {trustedBy.map((name) => (
               <span
                 key={name}
-                className="text-gray-400 font-semibold text-sm tracking-wide hover:text-gray-600 transition-colors duration-150 whitespace-nowrap"
+                className="inline-block px-5 py-2 rounded-full border border-gray-200 bg-gray-50 text-gray-500 font-semibold text-sm tracking-wide whitespace-nowrap hover:border-gray-300 hover:text-gray-700 transition-colors duration-150"
               >
                 {name}
               </span>
@@ -139,7 +158,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Intro / Credibility */}
+      {/* Who I Am */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-14 items-center">
@@ -166,27 +185,11 @@ export default function HomePage() {
                 Enterprise experience.<br />
                 <span className="text-brand-orange">Built for your stage.</span>
               </h2>
-              <p className="text-gray-600 leading-relaxed mb-4">
-                I spent 25+ years building at the highest levels — GM at Merck, VP at Johnson
-                &amp; Johnson, Chief Experience Officer at TCS — serving global enterprise clients
-                across life sciences, healthcare, retail, and automotive.
-              </p>
-              <p className="text-gray-600 leading-relaxed mb-4">
-                I also know what it means to build from scratch. I co-founded a dermatology biotech,
-                led a company through a landmark acquisition, and ran business development across Asia-Pacific.
-              </p>
               <p className="text-gray-600 leading-relaxed mb-8">
-                Today, through{' '}
-                <a
-                  href="https://tintaaladvisory.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-brand-orange font-medium hover:underline"
-                >
-                  Tin Taal Advisory
-                </a>
-                , I bring that same strategic discipline to founders and growth-stage companies
-                ready to build something that lasts.
+                Executive growth leader with 20+ years building and scaling go-to-market engines
+                across global organizations and founder-led businesses. Former CXO at TCS,
+                commercial leader at J&amp;J and Merck. Now working with founder-led technology
+                companies at the intersection of growth, creativity, and AI.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <Link href="/about" className="btn-primary">
