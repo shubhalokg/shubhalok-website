@@ -37,12 +37,9 @@ export default function Navigation() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex flex-col leading-tight">
+          <Link href="/" className="leading-tight">
             <span className="text-white font-serif text-xl font-bold tracking-wide">
               Shubhalok Ghosh
-            </span>
-            <span className="text-brand-orange text-xs font-medium tracking-widest uppercase">
-              Strategic Advisor &amp; Fractional CMO
             </span>
           </Link>
 

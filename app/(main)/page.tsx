@@ -1,8 +1,9 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Shubhalok Ghosh | Strategic Advisor & Fractional CMO',
+  title: 'Shubhalok Ghosh | Growth Executive & Commercial Leader',
 }
 
 const trustedBy = [
@@ -34,7 +35,7 @@ const differentiators = [
   {
     number: '03',
     title: 'Human-First. Always.',
-    desc: 'Rooted in a family legacy of service, education, and purpose going back to Mahatma Gandhi\'s independence movement. Business, at its core, is human — and that conviction shapes everything.',
+    desc: "Rooted in a family legacy of service, education, and purpose going back to Mahatma Gandhi's independence movement. Business, at its core, is human — and that conviction shapes everything.",
   },
 ]
 
@@ -56,51 +57,72 @@ const services = [
 export default function HomePage() {
   return (
     <>
-      {/* Hero */}
-      <section className="relative bg-brand-navy overflow-hidden min-h-screen flex items-center">
+      {/* ── Hero ─────────────────────────────────────────────────────── */}
+      <section className="relative bg-brand-navy overflow-hidden min-h-screen">
+        {/* background gradient */}
         <div
-          className="absolute inset-0 opacity-10"
+          className="absolute inset-0 opacity-10 pointer-events-none"
           style={{
             backgroundImage: `radial-gradient(circle at 20% 50%, #E86C1A 0%, transparent 50%),
                               radial-gradient(circle at 80% 20%, #1A7A3C 0%, transparent 40%)`,
           }}
         />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 md:py-40">
-          <div className="max-w-3xl">
-            {/* Credential badges */}
-            <div className="flex flex-wrap gap-2 mb-6">
-              <span className="inline-block text-brand-orange font-medium text-xs tracking-widest uppercase border border-brand-orange/40 px-3 py-1 rounded-full">
-                Top 100 Global CXO 2024
-              </span>
-              <span className="inline-block text-gray-300 font-medium text-xs tracking-widest uppercase border border-white/20 px-3 py-1 rounded-full">
-                TCS · J&amp;J · Merck · Jaguar Land Rover · Therakos
-              </span>
-            </div>
 
-            {/* Headline */}
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white leading-tight mb-6">
-              I turn executive vision into{' '}
-              <span className="text-brand-orange">repeatable commercial momentum.</span>
-            </h1>
+        {/* Two-column grid: text left | photo right */}
+        <div className="relative min-h-screen grid lg:grid-cols-2">
 
-            {/* Subheadline */}
-            <p className="text-gray-300 text-lg md:text-xl leading-relaxed mb-10 max-w-2xl">
-              Growth Executive for Founder-Led Companies&nbsp;|&nbsp;AI-Enabled GTM&nbsp;|&nbsp;Fractional CMO &amp; Strategic Advisor
-            </p>
+          {/* Left — copy */}
+          <div className="flex items-center px-6 sm:px-10 lg:px-16 xl:px-20 py-36 lg:py-24">
+            <div className="max-w-xl">
 
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/services" className="btn-primary text-center">
-                Work With Me
-              </Link>
-              <Link href="/work-podcast" className="btn-outline text-center">
-                Listen to the Podcast
-              </Link>
+              {/* Credential badges */}
+              <div className="flex flex-wrap gap-2 mb-6">
+                <span className="inline-block text-brand-orange font-medium text-xs tracking-widest uppercase border border-brand-orange/40 px-3 py-1 rounded-full">
+                  Top 100 Global CXO 2024
+                </span>
+                <span className="inline-block text-gray-300 font-medium text-xs tracking-widest uppercase border border-white/20 px-3 py-1 rounded-full">
+                  TCS · J&amp;J · Merck · NAYAderm · Therakos
+                </span>
+              </div>
+
+              {/* Headline */}
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white leading-tight mb-6">
+                I build the commercial engines that{' '}
+                <span className="text-brand-orange">scale companies.</span>
+              </h1>
+
+              {/* Subheadline */}
+              <p className="text-gray-300 text-lg md:text-xl leading-relaxed mb-10">
+                Growth Executive&nbsp;|&nbsp;Company Builder&nbsp;|&nbsp;Global Commercial Leader
+              </p>
+
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link href="/services" className="btn-primary text-center">
+                  Work With Me
+                </Link>
+                <Link href="/work-podcast" className="btn-outline text-center">
+                  Listen to the Podcast
+                </Link>
+              </div>
             </div>
           </div>
+
+          {/* Right — headshot, full height, no overlay */}
+          <div className="relative hidden lg:block">
+            <Image
+              src="/shubhalok-headshot.jpg"
+              alt="Shubhalok Ghosh"
+              fill
+              className="object-cover object-top"
+              sizes="50vw"
+              priority
+            />
+          </div>
+
         </div>
       </section>
 
-      {/* Stats Bar */}
+      {/* ── Stats Bar ────────────────────────────────────────────────── */}
       <section className="bg-brand-navy border-t border-white/10 py-10">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-3 gap-6 text-center">
@@ -118,7 +140,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Trusted By */}
+      {/* ── Trusted By ───────────────────────────────────────────────── */}
       <section className="bg-white border-b border-gray-100 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-center text-xs font-bold uppercase tracking-widest text-gray-400 mb-8">
@@ -137,7 +159,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Why Shubhalok */}
+      {/* ── Why Shubhalok ────────────────────────────────────────────── */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
@@ -158,7 +180,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Who I Am */}
+      {/* ── Who I Am ─────────────────────────────────────────────────── */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-14 items-center">
@@ -173,9 +195,9 @@ export default function HomePage() {
               </div>
               <div className="absolute -bottom-6 -right-6 bg-brand-orange text-white rounded-xl p-5 shadow-lg max-w-[220px]">
                 <p className="font-serif text-lg font-bold leading-tight">
-                  Strategic Advisor
+                  Growth Executive
                 </p>
-                <p className="text-orange-100 text-xs mt-1">&amp; Fractional CMO</p>
+                <p className="text-orange-100 text-xs mt-1">&amp; Company Builder</p>
               </div>
             </div>
 
@@ -204,7 +226,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Services — Two Lanes */}
+      {/* ── Services — Two Lanes ─────────────────────────────────────── */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
@@ -235,7 +257,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Podcast CTA */}
+      {/* ── Podcast CTA ──────────────────────────────────────────────── */}
       <section className="py-20 bg-brand-navy">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-flex items-center gap-2 bg-brand-orange/20 border border-brand-orange/40 rounded-full px-4 py-1.5 text-brand-orange text-sm font-medium mb-6">
@@ -266,7 +288,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Final CTA */}
+      {/* ── Final CTA ────────────────────────────────────────────────── */}
       <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="accent-bar mx-auto" />
@@ -274,7 +296,7 @@ export default function HomePage() {
             Ready to build something that lasts?
           </h2>
           <p className="section-subheading mx-auto text-center mb-8">
-            Whether you need a fractional CMO, a strategic advisor, or a thought partner —
+            Whether you&apos;re building something new or scaling something that works —
             let&apos;s talk.
           </p>
           <Link href="/contact" className="btn-primary text-lg px-10 py-4">
