@@ -339,10 +339,46 @@ Updated homepage for investor, CEO, and founder audiences.
 
 **Build status:** `npm run build` — ✓ All 11 routes compile cleanly, zero errors
 
+### Session 6 — June 9, 2026
+
+#### Homepage Overhaul — Headshot, Positioning, Stats, Logo Section
+
+Site is live at shubhalok.com with password gate active (password: `ComingSoon2025`, 7-day cookie).
+
+**Hero section — complete rebuild:**
+- Layout changed from single-column to **two-column**: text left, headshot right (full height, no overlay)
+- Headshot file: `public/shubhalok-headshot.jpg` — displayed with `object-contain object-center`, `bg-brand-navy` background
+- **Headline:** "I build the commercial engines that scale companies."
+- **Subheadline:** "Growth Executive | Company Builder | Global Commercial Leader"
+- **Credential badge:** TCS · J&J · Merck · NAYAderm · Therakos (removed Jaguar Land Rover)
+
+**Positioning cleanup — Fractional CMO removed from homepage entirely:**
+- Metadata title → `"Shubhalok Ghosh | Growth Executive & Commercial Leader"`
+- Nav tagline ("Strategic Advisor & Fractional CMO" under site name) — **deleted**
+- Floating badge in "Who I Am" section → "Growth Executive / & Company Builder"
+- Final CTA copy → "Whether you're building something new or scaling something that works"
+- Fractional CMO language now lives on Services page only
+
+**Stats bar labels updated:**
+- `$100M+` → "Practice & Agency Scaled"
+- `$500M+` → "Pipeline Built" (unchanged)
+- `$1.3B` → "Exit — Executive Team"
+
+**Client logos section — in progress (not yet complete):**
+- Section label renamed from "Trusted By World-Class Organizations" → "Signature Client Work"
+- Target logos: Eli Lilly, Johnson & Johnson, Jaguar Land Rover, H&M, Cigna
+- Merck and Tata Consultancy Services removed from this section (employer credentials, not clients)
+- Note: J&J appears in both employer credentials AND client logos — intentional (worked FOR J&J at J&J; later served J&J as a client through TCS)
+- SVG files started: `public/logos/eli-lilly.svg`, `public/logos/jaguar-land-rover.svg`, `public/logos/hm.svg`
+- Still needed: `public/logos/johnson-johnson.svg`, `public/logos/cigna.svg` (Cigna has no SVG on Wikimedia — needs wordmark SVG or PNG alternative)
+- Homepage not yet updated to render logo images — currently still showing text badges
+
+**Build status:** `npm run build` — ✓ All 11 routes compile cleanly, zero errors
+**All changes committed and pushed to GitHub. Site live at shubhalok.com.**
+
 ### Next Session Goals
-- Add real headshot photo (replace placeholder)
-- Upload actual greyscale SVG client logos to Trusted By section
-- Update About page with investor-focused bio
+- Complete client logos section: finish J&J and Cigna SVGs, update homepage to render `<img>` logos in greyscale with color-on-hover
+- Update About page with investor-focused bio (SkinIO raise context active)
 - Add real podcast episode titles and links
 - Wire up contact form (Formspree or Resend)
 - Set up professional email at shubhalok.com
