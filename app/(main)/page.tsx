@@ -16,9 +16,9 @@ const trustedBy = [
 ]
 
 const stats = [
-  { value: '$100M+', label: 'Practice Scaled' },
+  { value: '$100M+', label: 'Practice & Agency Scaled' },
   { value: '$500M+', label: 'Pipeline Built' },
-  { value: '$1.3B',  label: 'Acquisition Led' },
+  { value: '$1.3B',  label: 'Exit — Executive Team' },
 ]
 
 const differentiators = [
@@ -108,12 +108,12 @@ export default function HomePage() {
           </div>
 
           {/* Right — headshot, full height, no overlay */}
-          <div className="relative hidden lg:block">
+          <div className="relative hidden lg:flex items-center justify-center bg-brand-navy">
             <Image
               src="/shubhalok-headshot.jpg"
               alt="Shubhalok Ghosh"
               fill
-              className="object-cover object-top"
+              className="object-contain object-center"
               sizes="50vw"
               priority
             />
