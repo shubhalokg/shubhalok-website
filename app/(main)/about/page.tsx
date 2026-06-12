@@ -119,84 +119,63 @@ export default function AboutPage() {
 
       {/* Layer 1: Professional Bio */}
       <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-14 items-start">
-            <div className="relative sticky top-28">
-              <div className="aspect-[4/5] bg-gradient-to-br from-brand-navy to-brand-navy-light rounded-2xl overflow-hidden flex items-end justify-center shadow-xl">
-                <div className="text-center p-8 text-white">
-                  <div className="text-7xl mb-4">👤</div>
-                  <p className="text-gray-400 text-sm italic">
-                    [Replace with professional headshot]
-                  </p>
-                </div>
-              </div>
-              <div className="absolute top-6 -right-4 bg-brand-orange text-white rounded-lg px-4 py-2 shadow-lg text-sm font-semibold">
-                Strategic Advisor
-              </div>
-              <div className="absolute bottom-10 -left-4 bg-brand-green text-white rounded-lg px-4 py-2 shadow-lg text-sm font-semibold">
-                Podcast Host
-              </div>
-            </div>
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="accent-bar" />
+          <h2 className="section-heading">The Professional</h2>
 
-            <div>
-              <div className="accent-bar" />
-              <h2 className="section-heading">The Professional</h2>
+          <div className="space-y-5 text-gray-700 leading-relaxed text-base">
+            <p>
+              At <strong className="text-brand-navy">TCS</strong>, I built the eXperience
+              Transformation Group into a $300M+ global CX, MarTech, and digital transformation
+              practice operating across the US, India, and EU. The practice has since grown to
+              be recognized as the #7 marketing and technology agency in North America in
+              MM+M&apos;s 2026 Top 100 ranking, a reflection of the foundation, team, and
+              commercial model built during my tenure. Earlier in my career, I led go-to-market
+              strategy and business development for billion-dollar brands at{' '}
+              <strong className="text-brand-navy">J&amp;J</strong> and served as General Manager
+              for <strong className="text-brand-navy">Merck Vaccines</strong> across Japan and
+              Australia. Those experiences shaped how I think about growth, complexity, and the
+              decisions that determine whether a business scales.
+            </p>
+            <p>
+              At <strong className="text-brand-navy">Therakos</strong>, I served as CMO during
+              a private-equity-backed turnaround that culminated in a $1.3B acquisition. At{' '}
+              <strong className="text-brand-navy">NAYAderm</strong>, I spent four years as
+              co-founder and CEO working to build a dermatology biotech from the ground up,
+              securing core IP and manufacturing agreements and taking the company deep into
+              investor conversations. It was not a commercialization success story, but it gave
+              me firsthand experience with the ambiguity, persistence, and judgment required to
+              build something before the outcome is clear.
+            </p>
+            <p>
+              My family&apos;s story is rooted in education, service, and India&apos;s
+              independence movement. My grandparents worked closely with Gandhi and led the
+              development of Nai Talim, the educational philosophy designed to put human
+              development at the center of post-independence India. My mother,{' '}
+              <strong className="text-brand-navy">Mita Ghosh</strong>, grew up at Sevagram
+              Ashram and carried that same conviction into her life&apos;s work, founding{' '}
+              <strong className="text-brand-navy">Mita&apos;s House</strong>, an early childhood
+              program she ran for nearly 30 years in Southfield, Michigan. That legacy shaped
+              how I think about service, accountability, and what leadership is actually for.
+            </p>
+            <p>
+              Today I work with founders and growth-stage companies navigating commercial scale,
+              creativity, and the questions raised by artificial intelligence. The work is not
+              just about growth. It is about building businesses that people trust, adopt, and
+              want to be part of. I also host{' '}
+              <em className="text-brand-orange font-semibold">HUMANity in the Age of AI</em>, a
+              podcast exploring what it means to lead, build, and stay human in a world being
+              transformed by technology.
+            </p>
+          </div>
 
-              <div className="prose prose-gray max-w-none space-y-5 text-gray-600 leading-relaxed">
-                <p>
-                  At <strong className="text-brand-navy">TCS</strong>, I built the eXperience
-                  Transformation Group into a $300M+ global CX, MarTech, and digital transformation
-                  practice operating across the US, India, and EU. The practice has since grown to
-                  be recognized as the #7 marketing and technology agency in North America in
-                  MM+M&apos;s 2026 Top 100 ranking, a reflection of the foundation, team, and
-                  commercial model built during my tenure. Earlier in my career, I led go-to-market
-                  strategy and business development for billion-dollar brands at{' '}
-                  <strong className="text-brand-navy">J&amp;J</strong> and served as General Manager
-                  for <strong className="text-brand-navy">Merck Vaccines</strong> across Japan and
-                  Australia. Those experiences shaped how I think about growth, complexity, and the
-                  decisions that determine whether a business scales.
-                </p>
-                <p>
-                  At <strong className="text-brand-navy">Therakos</strong>, I served as CMO during
-                  a private-equity-backed turnaround that culminated in a $1.3B acquisition. At{' '}
-                  <strong className="text-brand-navy">NAYAderm</strong>, I spent four years as
-                  co-founder and CEO working to build a dermatology biotech from the ground up,
-                  securing core IP and manufacturing agreements and taking the company deep into
-                  investor conversations. It was not a commercialization success story, but it gave
-                  me firsthand experience with the ambiguity, persistence, and judgment required to
-                  build something before the outcome is clear.
-                </p>
-                <p>
-                  My family&apos;s story is rooted in education, service, and India&apos;s
-                  independence movement. My grandparents worked closely with Gandhi and led the
-                  development of Nai Talim, the educational philosophy designed to put human
-                  development at the center of post-independence India. My mother,{' '}
-                  <strong className="text-brand-navy">Mita Ghosh</strong>, grew up at Sevagram
-                  Ashram and carried that same conviction into her life&apos;s work, founding{' '}
-                  <strong className="text-brand-navy">Mita&apos;s House</strong>, an early childhood
-                  program she ran for nearly 30 years in Southfield, Michigan. That legacy shaped
-                  how I think about service, accountability, and what leadership is actually for.
-                </p>
-                <p>
-                  Today I work with founders and growth-stage companies navigating commercial scale,
-                  creativity, and the questions raised by artificial intelligence. The work is not
-                  just about growth. It is about building businesses that people trust, adopt, and
-                  want to be part of. I also host{' '}
-                  <em className="text-brand-orange font-semibold">HUMANity in the Age of AI</em>, a
-                  podcast exploring what it means to lead, build, and stay human in a world being
-                  transformed by technology.
-                </p>
-              </div>
-
-              <div className="mt-8 flex flex-col sm:flex-row gap-3">
-                <Link href="/services" className="btn-primary">
-                  Work With Me
-                </Link>
-                <Link href="/media-kit" className="btn-outline">
-                  Download Media Kit
-                </Link>
-              </div>
-            </div>
+          <div className="mt-8 flex flex-col sm:flex-row gap-3">
+            <Link href="/services" className="btn-primary">
+              Work With Me
+            </Link>
+            <Link href="/media-kit" className="btn-outline">
+              Download Media Kit
+            </Link>
           </div>
         </div>
       </section>
@@ -289,13 +268,15 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="mt-10 bg-brand-navy/5 border border-brand-navy/10 rounded-2xl p-7">
-            <blockquote className="font-serif text-brand-navy text-xl italic leading-relaxed">
+          <blockquote className="mt-12 border-l-4 border-brand-orange pl-8 py-1">
+            <p className="font-serif text-brand-navy text-2xl md:text-3xl italic leading-snug font-medium">
               &ldquo;The best strategy keeps the human at the center. That&apos;s not a business
               philosophy — it&apos;s a family inheritance.&rdquo;
-            </blockquote>
-            <p className="text-sm text-gray-500 mt-3">— Shubhalok Ghosh</p>
-          </div>
+            </p>
+            <footer className="text-sm text-gray-500 mt-4 font-medium not-italic">
+              — Shubhalok Ghosh
+            </footer>
+          </blockquote>
         </div>
       </section>
 
