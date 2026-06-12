@@ -376,7 +376,7 @@ Site is live at shubhalok.com with password gate active (password: `ComingSoon20
 **Build status:** `npm run build` — ✓ All 11 routes compile cleanly, zero errors
 **All changes committed and pushed to GitHub. Site live at shubhalok.com.**
 
-### Next Session Goals
+### Next Session Goals (after Session 6)
 - Complete client logos section: finish J&J and Cigna SVGs, update homepage to render `<img>` logos in greyscale with color-on-hover
 - Update About page with investor-focused bio (SkinIO raise context active)
 - Add real podcast episode titles and links
@@ -384,3 +384,44 @@ Site is live at shubhalok.com with password gate active (password: `ComingSoon20
 - Set up professional email at shubhalok.com
 - Remove password gate (delete `middleware.ts`) when ready to go public
 - Follow up on ITU trademark filing for "HUMANity in the Age of AI"
+
+### Session 7 — June 12, 2026
+
+#### About Page — Major Simplification & Polish
+
+**Sections removed:**
+- Career Journey timeline section (8-role timeline removed entirely)
+- A Legacy of Purpose / Heritage section removed
+- Faith as Foundation section removed
+
+**Sections kept and updated:**
+- **Professional Bio** (`The Professional`): Headshot placeholder removed; section changed from 2-column grid to clean single-column `max-w-3xl` layout. Text contrast improved — `text-gray-700` replacing `text-gray-600`, `prose prose-gray` class removed. New approved bio copy (4 paragraphs) in place.
+- **Ganges Delta Blues**: Simplified — Guruji name removed, Vision & Grit Festival removed. Kept: Shakey Lyman (bottleneck guitar, harmonica), Bob Solarz (bass), Stephen D. Ambrose recording credit, Google Drive links to "Fire in My Hands" and "Pontiac Baby".
+- **Voices With Hands**: Kept; all church and Tenth Presbyterian references removed.
+- **Awards**: Reduced to 3 — HotTopics Global Top 100 CXO 2024, Everest "Leader of the Year" 2024, MM+M Agency 100 Top 10 Design 2020–2024.
+
+**Visual improvements:**
+- Featured quote ("The best strategy keeps the human at the center...") restyled as a pull-quote: thick orange left border (`border-l-4 border-brand-orange`), `text-2xl md:text-3xl` italic serif, high visual prominence.
+- Hero h1 updated to "Growth Executive. Company Builder. Human-first leader." (Fractional CMO removed).
+- Hero subtitle replaced with approved HERO LINE: "I've spent 25 years building commercial engines across global enterprises, founder-led startups, and every stage in between. Here's what I learned."
+
+#### Homepage Updates (earlier in session history, captured here)
+- Stats reordered left-to-right: $500M+ Pipeline Built · $300M+ Practice & Agency Scaled · $1.3B Exit — Executive Team
+- Mobile photo layout fixed: photo above text on mobile (300px, object-cover object-top), two-column grid on desktop
+
+#### Work & Podcast Page (earlier in session history, captured here)
+- Episode 1 (Stephen Bonner, SkinIO) live with Spotify and YouTube links
+- Upcoming: Gary Miller (Next Episode), Woody Giessmann (Upcoming)
+- Podcast artwork (`/public/podcast-artwork.jpg`) live
+
+**Build status:** `npm run build` — ✓ All 11 routes compile cleanly, zero errors
+**All changes committed and pushed. Site live at shubhalok.com.**
+
+### Next Session Goals
+- Services page: review and content update
+- Media Kit page: review and content update
+- Contact page: review and content update
+- Bauhaus font swap sitewide
+- Client logo ticker for Signature Client Work section on homepage
+- Remove password gate (`middleware.ts`) when all pages are ready to go public
+- Add Gandhi family photos to About page when available
