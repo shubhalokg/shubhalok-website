@@ -22,15 +22,19 @@ const episode1 = {
 const upcomingEpisodes = [
   {
     guest: 'Gary Miller',
-    title: 'High Performance at the Human Edge',
-    bio: 'Owner, Human Charger US — US Olympic Ski & Snowboard Coach',
-    topics: ['Performance', 'Human Optimization', 'Coaching'],
+    label: 'Next Episode',
+    bio: 'Founder, US Human Charger — Olympian & Elite Performance Coach',
+    description:
+      'Founder of US Human Charger, Olympian skier, and elite performance coach who trained Mikaela Shiffrin. Gary brings a world-class perspective on human performance, resilience, and what it takes to compete at the highest level.',
+    topics: ['Human Performance', 'Resilience', 'Elite Coaching'],
   },
   {
-    guest: 'Dawn Hewitt',
-    title: 'Founding with a Mission',
-    bio: 'Founder & President, Re-Lieved',
-    topics: ['Entrepreneurship', 'Health', 'Mission-Driven'],
+    guest: 'Woody Giessmann',
+    label: 'Upcoming',
+    bio: 'Therapist & Interventionalist — Creator, Rock Bottom',
+    description:
+      'Former drummer for Boston\'s Del Fuegos, current therapist, interventionalist, and creator of Rock Bottom — a musical project exploring recovery, resilience, and the human experience.',
+    topics: ['Recovery', 'Resilience', 'Music & Healing'],
   },
 ]
 
@@ -254,7 +258,7 @@ export default function WorkPodcastPage() {
               <div key={ep.guest} className="card border-t-4 border-t-brand-orange">
                 <div className="flex items-center justify-between mb-4">
                   <span className="text-xs font-bold bg-brand-orange/10 text-brand-orange px-2.5 py-1 rounded-full uppercase tracking-wide">
-                    Upcoming
+                    {ep.label}
                   </span>
                 </div>
                 <h3 className="font-bold text-brand-navy text-base leading-snug mb-1">
@@ -263,7 +267,9 @@ export default function WorkPodcastPage() {
                 <p className="text-brand-green text-xs font-medium mb-3 leading-snug">
                   {ep.bio}
                 </p>
-                <p className="text-gray-600 text-sm italic mb-4">&ldquo;{ep.title}&rdquo;</p>
+                <p className="text-gray-600 text-sm leading-relaxed mb-4">
+                  {ep.description}
+                </p>
                 <div className="flex flex-wrap gap-1.5">
                   {ep.topics.map((t) => (
                     <span
