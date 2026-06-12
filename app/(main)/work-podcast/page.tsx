@@ -4,26 +4,29 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Podcast',
   description:
-    'HUMANity in the Age of AI — Shubhalok Ghosh\'s podcast exploring what it means to lead, build, and stay human in a world being transformed by artificial intelligence.',
+    "HUMANity in the Age of AI — Shubhalok Ghosh's podcast exploring what it means to lead, build, and stay human in a world being transformed by artificial intelligence.",
+}
+
+const episode1 = {
+  number: '01',
+  guest: 'Stephen Bonner',
+  bio: 'CEO, SkinIO — Former CEO, Cancer Treatment Centers of America',
+  title: 'Skin Cancer Detection, AI Innovation, and Why Dermatologists Still Matter',
+  description:
+    'Stephen Bonner, former CEO of Cancer Treatment Centers of America and now CEO of SkinIO, joins Shubhalok Ghosh to discuss what it really takes to build healthcare innovation that matters. The conversation explores melanoma detection, why access to dermatology care is as important as the technology itself, and how AI can support better outcomes without replacing the human judgment that still matters most. At HUMANity in the Age of AI, the future is still people.',
+  spotify: 'https://open.spotify.com/episode/34Gb9I6rV1YbYL4ti1XisX?si=L-4xplElTK6H4ZznYDWdCg',
+  youtube: 'https://youtu.be/iYdZBYfaNAc',
+  topics: ['Healthcare AI', 'Dermatology', 'Innovation', 'Human Judgment'],
 }
 
 const upcomingEpisodes = [
   {
-    label: 'Upcoming',
-    guest: 'Steven Bonner',
-    title: 'Leading Through Transformation',
-    bio: 'CEO, skinio.com — Former CEO, Cancer Treatment Centers of America',
-    topics: ['Healthcare', 'Leadership', 'Purpose'],
-  },
-  {
-    label: 'Upcoming',
     guest: 'Gary Miller',
     title: 'High Performance at the Human Edge',
     bio: 'Owner, Human Charger US — US Olympic Ski & Snowboard Coach',
     topics: ['Performance', 'Human Optimization', 'Coaching'],
   },
   {
-    label: 'Upcoming',
     guest: 'Dawn Hewitt',
     title: 'Founding with a Mission',
     bio: 'Founder & President, Re-Lieved',
@@ -59,10 +62,8 @@ const caseStudies = [
 ]
 
 const platforms = [
-  { name: 'Spotify', icon: '🎵', href: '#' },
-  { name: 'Apple Podcasts', icon: '🎙️', href: '#' },
-  { name: 'Amazon Music', icon: '🎶', href: '#' },
-  { name: 'YouTube', icon: '▶️', href: '#' },
+  { name: 'Spotify', icon: '🎵', href: episode1.spotify },
+  { name: 'YouTube', icon: '▶️', href: episode1.youtube },
 ]
 
 export default function WorkPodcastPage() {
@@ -148,6 +149,8 @@ export default function WorkPodcastPage() {
                     <a
                       key={p.name}
                       href={p.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex items-center gap-2 bg-gray-100 hover:bg-brand-navy hover:text-white text-gray-700 text-sm font-medium px-3 py-2 rounded-lg transition-colors duration-150"
                     >
                       <span>{p.icon}</span>
@@ -167,23 +170,91 @@ export default function WorkPodcastPage() {
         </div>
       </section>
 
-      {/* Upcoming Episodes */}
+      {/* Episode 1 — Featured */}
       <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="accent-bar mx-auto" />
+            <h2 className="section-heading mx-auto">Latest Episode</h2>
+          </div>
+
+          <div className="max-w-3xl mx-auto bg-brand-navy rounded-2xl overflow-hidden shadow-2xl">
+            <div className="p-8 md:p-10">
+              {/* Episode badge + status */}
+              <div className="flex items-center gap-3 mb-6">
+                <span className="bg-brand-orange text-white text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-widest">
+                  Episode {episode1.number}
+                </span>
+                <span className="text-brand-green text-sm font-medium">● Now Live</span>
+              </div>
+
+              {/* Title */}
+              <h3 className="font-serif text-2xl md:text-3xl font-bold text-white leading-tight mb-2">
+                {episode1.title}
+              </h3>
+              <p className="text-brand-orange font-medium mb-1">
+                with {episode1.guest}
+              </p>
+              <p className="text-gray-400 text-sm mb-6">{episode1.bio}</p>
+
+              {/* Description */}
+              <p className="text-gray-300 leading-relaxed mb-8">
+                {episode1.description}
+              </p>
+
+              {/* Topic tags */}
+              <div className="flex flex-wrap gap-2 mb-8">
+                {episode1.topics.map((t) => (
+                  <span
+                    key={t}
+                    className="text-xs bg-white/10 text-gray-300 px-3 py-1 rounded-full"
+                  >
+                    {t}
+                  </span>
+                ))}
+              </div>
+
+              {/* Listen links */}
+              <div className="flex flex-wrap gap-3">
+                <a
+                  href={episode1.spotify}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 bg-[#1DB954] hover:bg-[#1ed760] text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition-colors duration-150"
+                >
+                  🎵 Listen on Spotify
+                </a>
+                <a
+                  href={episode1.youtube}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 bg-[#FF0000] hover:bg-[#cc0000] text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition-colors duration-150"
+                >
+                  ▶️ Watch on YouTube
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Coming Up */}
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <div className="accent-bar mx-auto" />
-            <h2 className="section-heading mx-auto">Upcoming Episodes</h2>
+            <h2 className="section-heading mx-auto">Coming Up</h2>
             <p className="section-subheading mx-auto text-center">
-              Conversations with founders, executives, and community leaders on leadership
+              More conversations with founders, executives, and community leaders on leadership
               and staying human in an AI-driven world.
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
             {upcomingEpisodes.map((ep) => (
               <div key={ep.guest} className="card border-t-4 border-t-brand-orange">
                 <div className="flex items-center justify-between mb-4">
                   <span className="text-xs font-bold bg-brand-orange/10 text-brand-orange px-2.5 py-1 rounded-full uppercase tracking-wide">
-                    {ep.label}
+                    Upcoming
                   </span>
                 </div>
                 <h3 className="font-bold text-brand-navy text-base leading-snug mb-1">
@@ -210,7 +281,7 @@ export default function WorkPodcastPage() {
       </section>
 
       {/* Selected Client Work */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <div className="accent-bar mx-auto" />

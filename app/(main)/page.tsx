@@ -16,8 +16,8 @@ const trustedBy = [
 ]
 
 const stats = [
-  { value: '$100M+', label: 'Practice & Agency Scaled' },
   { value: '$500M+', label: 'Pipeline Built' },
+  { value: '$300M+', label: 'Practice & Agency Scaled' },
   { value: '$1.3B',  label: 'Exit — Executive Team' },
 ]
 
@@ -58,7 +58,7 @@ export default function HomePage() {
   return (
     <>
       {/* ── Hero ─────────────────────────────────────────────────────── */}
-      <section className="relative bg-brand-navy overflow-hidden min-h-screen">
+      <section className="relative bg-brand-navy overflow-hidden lg:min-h-screen">
         {/* background gradient */}
         <div
           className="absolute inset-0 opacity-10 pointer-events-none"
@@ -68,11 +68,23 @@ export default function HomePage() {
           }}
         />
 
-        {/* Two-column grid: text left | photo right */}
-        <div className="relative min-h-screen grid lg:grid-cols-2">
+        {/* flex-col on mobile, two-column grid on desktop */}
+        <div className="relative flex flex-col lg:grid lg:grid-cols-2 lg:min-h-screen">
 
-          {/* Left — copy */}
-          <div className="flex items-center px-6 sm:px-10 lg:px-16 xl:px-20 py-36 lg:py-24">
+          {/* Photo — order 1 on mobile (shows above text), order 2 on desktop (right column) */}
+          <div className="order-1 lg:order-2 relative h-[300px] sm:h-[360px] lg:h-auto mt-20 lg:mt-0 flex-shrink-0">
+            <Image
+              src="/shubhalok-headshot.jpg"
+              alt="Shubhalok Ghosh"
+              fill
+              className="object-cover object-top lg:object-contain lg:object-center"
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              priority
+            />
+          </div>
+
+          {/* Text — order 2 on mobile (below photo), order 1 on desktop (left column) */}
+          <div className="order-2 lg:order-1 flex items-center px-6 sm:px-10 lg:px-16 xl:px-20 py-12 lg:py-24">
             <div className="max-w-xl">
 
               {/* Credential badges */}
@@ -105,18 +117,6 @@ export default function HomePage() {
                 </Link>
               </div>
             </div>
-          </div>
-
-          {/* Right — headshot, full height, no overlay */}
-          <div className="relative hidden lg:flex items-center justify-center bg-brand-navy">
-            <Image
-              src="/shubhalok-headshot.jpg"
-              alt="Shubhalok Ghosh"
-              fill
-              className="object-contain object-center"
-              sizes="50vw"
-              priority
-            />
           </div>
 
         </div>
