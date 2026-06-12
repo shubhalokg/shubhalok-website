@@ -106,14 +106,12 @@ export default function AboutPage() {
               About Shubhalok
             </span>
             <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6 leading-tight">
-              Strategic Advisor. Fractional CMO.<br />
+              Growth Executive. Company Builder.<br />
               <span className="text-brand-orange">Human-first leader.</span>
             </h1>
-            <p className="text-gray-300 text-lg leading-relaxed">
-              At the intersection of business, technology, and purpose — with 25 years of
-              enterprise and startup leadership, a family legacy rooted in Gandhi&apos;s
-              independence movement, and a conviction that the best strategy keeps the
-              human at the center.
+            <p className="text-gray-300 text-xl leading-relaxed font-medium">
+              I&apos;ve spent 25 years building commercial engines across global enterprises,
+              founder-led startups, and every stage in between. Here&apos;s what I learned.
             </p>
           </div>
         </div>
@@ -144,49 +142,49 @@ export default function AboutPage() {
               <div className="accent-bar" />
               <h2 className="section-heading">The Professional</h2>
 
-              <div className="prose prose-gray max-w-none space-y-4 text-gray-600 leading-relaxed">
+              <div className="prose prose-gray max-w-none space-y-5 text-gray-600 leading-relaxed">
                 <p>
-                  My career began at{' '}
-                  <strong className="text-brand-navy">Merck</strong>, where I led vaccine strategy
-                  across India, Japan, and Australia — including the landmark HPV vaccine agreement
-                  with CSL and a ten-year plan that established Merck&apos;s India subsidiary.
+                  At <strong className="text-brand-navy">TCS</strong>, I built the eXperience
+                  Transformation Group into a $300M+ global CX, MarTech, and digital transformation
+                  practice operating across the US, India, and EU. The practice has since grown to
+                  be recognized as the #7 marketing and technology agency in North America in
+                  MM+M&apos;s 2026 Top 100 ranking, a reflection of the foundation, team, and
+                  commercial model built during my tenure. Earlier in my career, I led go-to-market
+                  strategy and business development for billion-dollar brands at{' '}
+                  <strong className="text-brand-navy">J&amp;J</strong> and served as General Manager
+                  for <strong className="text-brand-navy">Merck Vaccines</strong> across Japan and
+                  Australia. Those experiences shaped how I think about growth, complexity, and the
+                  decisions that determine whether a business scales.
                 </p>
                 <p>
-                  From there, seven years at{' '}
-                  <strong className="text-brand-navy">Johnson &amp; Johnson</strong> — first leading
-                  global marketing for the Simponi® immunology franchise through pre-launch to
-                  market, then as VP of Business Development and APAC Board Member for Diabetes Care,
-                  where I directed global digital health strategy and created a mHealth partnership
-                  with Korea&apos;s leading electronics company.
+                  At <strong className="text-brand-navy">Therakos</strong>, I served as CMO during
+                  a private-equity-backed turnaround that culminated in a $1.3B acquisition. At{' '}
+                  <strong className="text-brand-navy">NAYAderm</strong>, I spent four years as
+                  co-founder and CEO working to build a dermatology biotech from the ground up,
+                  securing core IP and manufacturing agreements and taking the company deep into
+                  investor conversations. It was not a commercialization success story, but it gave
+                  me firsthand experience with the ambiguity, persistence, and judgment required to
+                  build something before the outcome is clear.
                 </p>
                 <p>
-                  I also co-founded{' '}
-                  <strong className="text-brand-navy">NayaDerm</strong>, a dermatology biotech,
-                  securing an IP agreement with Sapporo University Japan and engaging leading
-                  US and Israeli venture capital firms. Concurrently, I served as CMO at{' '}
-                  <strong className="text-brand-navy">Therakos</strong> — an integral executive
-                  team member through the company&apos;s $1.3B acquisition by Mallinckrodt.
+                  My family&apos;s story is rooted in education, service, and India&apos;s
+                  independence movement. My grandparents worked closely with Gandhi and led the
+                  development of Nai Talim, the educational philosophy designed to put human
+                  development at the center of post-independence India. My mother,{' '}
+                  <strong className="text-brand-navy">Mita Ghosh</strong>, grew up at Sevagram
+                  Ashram and carried that same conviction into her life&apos;s work, founding{' '}
+                  <strong className="text-brand-navy">Mita&apos;s House</strong>, an early childhood
+                  program she ran for nearly 30 years in Southfield, Michigan. That legacy shaped
+                  how I think about service, accountability, and what leadership is actually for.
                 </p>
                 <p>
-                  At{' '}
-                  <strong className="text-brand-navy">Tata Consultancy Services</strong>, I became
-                  Chief Experience Officer and Chief Commercial Officer — building and leading the
-                  Experience Transformation Practice for global enterprise clients including
-                  Johnson &amp; Johnson, Eli Lilly, Bayer, Pfizer, Humana, Cigna, Jaguar Land
-                  Rover, H&amp;M, and Marks &amp; Spencer. I also developed SYMPHONY, an
-                  AI-powered marketing transformation accelerator.
-                </p>
-                <p>
-                  Today, through{' '}
-                  <strong className="text-brand-navy">Tin Taal Advisory</strong>, I work as a
-                  strategic advisor to early-stage founders and fractional CMO for growth-stage
-                  companies — helping them build the go-to-market strategy, brand positioning,
-                  and operational execution to accelerate revenue. I also host{' '}
-                  <em className="text-brand-orange font-semibold">
-                    HUMANity in the Age of AI
-                  </em>
-                  , a podcast exploring what it means to lead and build in a world being
-                  transformed by artificial intelligence.
+                  Today I work with founders and growth-stage companies navigating commercial scale,
+                  creativity, and the questions raised by artificial intelligence. The work is not
+                  just about growth. It is about building businesses that people trust, adopt, and
+                  want to be part of. I also host{' '}
+                  <em className="text-brand-orange font-semibold">HUMANity in the Age of AI</em>, a
+                  podcast exploring what it means to lead, build, and stay human in a world being
+                  transformed by technology.
                 </p>
               </div>
 
