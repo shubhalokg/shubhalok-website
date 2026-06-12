@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -98,29 +99,14 @@ export default function WorkPodcastPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-14 items-center">
             {/* Podcast art */}
-            <div className="aspect-square max-w-md mx-auto w-full bg-gradient-to-br from-brand-navy via-brand-navy-light to-brand-green rounded-3xl shadow-2xl flex flex-col items-center justify-center p-10 text-center">
-              <div className="w-16 h-16 rounded-full bg-brand-orange flex items-center justify-center mb-6 shadow-lg">
-                <svg className="w-7 h-7 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M8 5v14l11-7z" />
-                </svg>
-              </div>
-              <h3 className="text-white font-serif text-2xl font-bold mb-2">
-                HUMANity in the Age of AI
-              </h3>
-              <p className="text-gray-300 text-sm">Hosted by Shubhalok Ghosh</p>
-              <div className="mt-6 flex gap-2 flex-wrap justify-center">
-                {['Leadership', 'Founders', 'AI', 'Purpose', 'Human'].map((tag) => (
-                  <span
-                    key={tag}
-                    className="text-xs bg-white/20 text-white px-3 py-1 rounded-full"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-              <p className="text-gray-400 text-xs mt-6 italic">
-                [Replace with podcast cover art]
-              </p>
+            <div className="aspect-square max-w-md mx-auto w-full relative rounded-3xl overflow-hidden shadow-2xl">
+              <Image
+                src="/podcast-artwork.jpg"
+                alt="HUMANity in the Age of AI — Podcast by Shubhalok Ghosh"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 448px"
+              />
             </div>
 
             {/* Podcast info */}
