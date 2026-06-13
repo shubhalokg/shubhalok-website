@@ -8,10 +8,9 @@ export const metadata: Metadata = {
 
 const trustedBy = [
   'Johnson & Johnson',
-  'Merck',
-  'Tata Consultancy Services',
+  'Eli Lilly',
   'Jaguar Land Rover',
-  'Therakos',
+  'H&M',
   'Cigna',
 ]
 
@@ -140,11 +139,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── Trusted By ───────────────────────────────────────────────── */}
+      {/* ── Signature Client Work ─────────────────────────────────────── */}
       <section className="bg-white border-b border-gray-100 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-center text-xs font-bold uppercase tracking-widest text-gray-400 mb-8">
-            Trusted by world-class organizations
+            Signature Client Work
           </p>
           <div className="flex flex-wrap justify-center items-center gap-3">
             {trustedBy.map((name) => (
@@ -185,13 +184,14 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-14 items-center">
             <div className="relative">
-              <div className="aspect-[4/5] bg-gradient-to-br from-brand-navy to-brand-navy-light rounded-2xl overflow-hidden flex items-end justify-center shadow-2xl">
-                <div className="text-center p-8 text-white">
-                  <div className="text-6xl mb-4">👤</div>
-                  <p className="text-gray-300 text-sm italic">
-                    [Replace with professional headshot]
-                  </p>
-                </div>
+              <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
+                <Image
+                  src="/shubhalok-headshot.jpg"
+                  alt="Shubhalok Ghosh"
+                  fill
+                  className="object-cover object-top"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-brand-orange text-white rounded-xl p-5 shadow-lg max-w-[220px]">
                 <p className="font-serif text-lg font-bold leading-tight">
@@ -306,4 +306,4 @@ export default function HomePage() {
       </section>
     </>
   )
-}
+} 
