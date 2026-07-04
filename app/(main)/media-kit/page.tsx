@@ -74,6 +74,29 @@ const pressFeatures = [
   },
 ]
 
+const speakingTopicsMediaKit = [
+  {
+    title: 'HUMANity in the Age of AI: Why People Are Still the Future',
+    description:
+      'What happens when artificial intelligence meets human judgment. How leaders, founders, and organizations can embrace AI without losing what makes them effective — the people.',
+  },
+  {
+    title: 'The Land of Misfits: Building a Transformation Practice Inside a $30B Technology Company',
+    description:
+      'How to build something entrepreneurial inside a massive organization — assembling unconventional teams, creating a culture that delivers 120% customer delight, and scaling across the US, India, and EU while keeping the human at the center.',
+  },
+  {
+    title: 'From Gandhi\'s Ashram to the C-Suite: A Family Legacy of Leadership',
+    description:
+      'How a family legacy rooted in India\'s independence movement shaped a different approach to commercial leadership — one where service, education, and human development come before strategy frameworks.',
+  },
+  {
+    title: 'Go-to-Market Strategy for Founders',
+    description:
+      'From positioning to pipeline — the strategic decisions early-stage founders must get right before they can scale, and the most common mistakes that slow them down.',
+  },
+]
+
 export default function MediaKitPage() {
   return (
     <>
@@ -188,6 +211,29 @@ export default function MediaKitPage() {
                 <p key={i}>{para}</p>
               ))}
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Speaking topics */}
+      <section className="py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="accent-bar mx-auto" />
+            <h2 className="section-heading mx-auto">Speaking Topics</h2>
+            <p className="section-subheading mx-auto text-center">
+              Select topics for keynotes, panels, workshops, and executive conversations.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-6">
+            {speakingTopicsMediaKit.map((topic) => (
+              <div key={topic.title} className="card border-l-4 border-l-brand-orange">
+                <h3 className="font-bold text-brand-navy text-base mb-2 leading-snug">
+                  {topic.title}
+                </h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{topic.description}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
