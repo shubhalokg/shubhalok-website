@@ -85,9 +85,6 @@ export default function ServicesPage() {
               </div>
               <div className="accent-bar" />
               <h2 className="section-heading">Fractional Chief Growth Officer</h2>
-              <p className="text-brand-orange font-semibold text-lg mb-4 italic">
-                Senior growth leadership. Fractional model.
-              </p>
               <p className="text-gray-600 leading-relaxed mb-4">
                 You need strategy, execution, and accountability across the full growth engine. But
                 you are not ready for a full-time hire. I embed in your business as a strategic and
