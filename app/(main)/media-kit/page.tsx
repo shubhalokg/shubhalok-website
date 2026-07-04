@@ -63,7 +63,7 @@ const pressFeatures = [
     publication: 'MMM Magazine (Medical Marketing & Media)',
     feature: '"Agency 100" Annual Feature — Top 10 Design',
     years: '2020–2024 (annual)',
-    note: 'Read the 2024 MM+M Agency 100 profile',
+    note: 'Read the MM+M Agency 100 interview with Shubhalok',
     link: 'https://www.mmm-online.com/agency-100/tcs-interactive-life-sciences-agency-100-2024/',
   },
   {
