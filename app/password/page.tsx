@@ -48,7 +48,7 @@ export default function PasswordPage() {
             Shubhalok Ghosh
           </h1>
           <p className="text-sm uppercase tracking-widest mb-6" style={{ color: '#E86C1A' }}>
-            Strategic Advisor &amp; Fractional CMO
+            Fractional CGO &amp; Strategic Advisor
           </p>
           <div
             className="inline-block w-16 h-1 rounded"
