@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 
 const inquiryTypes = [
-  'Fractional CMO Inquiry',
+  'Fractional CGO Inquiry',
   'Marketing Services Project',
   'Podcast Production',
   'Executive Coaching',
@@ -16,8 +16,8 @@ const inquiryTypes = [
 const contactReasons = [
   {
     icon: '📊',
-    title: 'Fractional CMO',
-    desc: 'Ready to hire senior marketing leadership on a fractional basis.',
+    title: 'Fractional CGO',
+    desc: 'Ready to hire senior growth leadership on a fractional basis.',
     href: '#contact-form',
   },
   {
@@ -127,10 +127,10 @@ export default function ContactPage() {
                   <div>
                     <p className="text-xs font-bold uppercase tracking-wide text-brand-navy mb-1">Email</p>
                     <a
-                      href="mailto:hello@shubhalokghosh.com"
+                      href="mailto:shubhalokg@gmail.com"
                       className="text-gray-600 hover:text-brand-orange transition-colors text-sm"
                     >
-                      hello@shubhalokghosh.com
+                      shubhalokg@gmail.com
                     </a>
                   </div>
                 </div>
@@ -164,7 +164,7 @@ export default function ContactPage() {
                       href="/work-podcast"
                       className="text-gray-600 hover:text-brand-orange transition-colors text-sm"
                     >
-                      HUMANity in the Age of AI
+                      HUMANity in the Age of AI™
                     </Link>
                   </div>
                 </div>
