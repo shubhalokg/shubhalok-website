@@ -45,7 +45,7 @@ const fastFacts = [
   { label: 'Current Role', value: 'Fractional CGO & Strategic Advisor, Amorbis' },
   { label: 'Previous Title', value: 'Chief Commercial Officer, TCS' },
   { label: 'Experience', value: '25+ years across enterprise and startups' },
-  { label: 'Industries', value: 'Life Sciences, Healthcare, Retail, Automotive, B2B Tech' },
+  { label: 'Industries', value: 'Life Sciences, Healthcare, Retail, B2B Tech' },
   { label: 'Geography', value: 'US, India, EU — global perspective' },
   { label: 'Podcast', value: 'HUMANity in the Age of AI™' },
 ]
