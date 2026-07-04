@@ -182,45 +182,25 @@ export default function HomePage() {
       {/* ── Who I Am ─────────────────────────────────────────────────── */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-14 items-center">
-            <div className="relative">
-              <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
-                <Image
-                  src="/shubhalok-headshot.jpg"
-                  alt="Shubhalok Ghosh"
-                  fill
-                  className="object-cover object-top"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
-              </div>
-              <div className="absolute -bottom-6 -right-6 bg-brand-orange text-white rounded-xl p-5 shadow-lg max-w-[220px]">
-                <p className="font-serif text-lg font-bold leading-tight">
-                  Growth Executive
-                </p>
-                <p className="text-orange-100 text-xs mt-1">&amp; Company Builder</p>
-              </div>
-            </div>
-
-            <div>
-              <div className="accent-bar" />
-              <h2 className="section-heading">
-                Enterprise experience.<br />
-                <span className="text-brand-orange">Built for your stage.</span>
-              </h2>
-              <p className="text-gray-600 leading-relaxed mb-8">
-                Executive growth leader with 20+ years building and scaling go-to-market engines
-                across global organizations and founder-led businesses. Former CXO at TCS,
-                commercial leader at J&amp;J and Merck. Now working with founder-led technology
-                companies at the intersection of growth, creativity, and AI.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-3">
-                <Link href="/about" className="btn-primary">
-                  My Full Story
-                </Link>
-                <Link href="/services" className="btn-outline">
-                  How I Can Help
-                </Link>
-              </div>
+          <div className="max-w-3xl">
+            <div className="accent-bar" />
+            <h2 className="section-heading">
+              Enterprise experience.<br />
+              <span className="text-brand-orange">Built for your stage.</span>
+            </h2>
+            <p className="text-gray-600 leading-relaxed mb-8">
+              Executive growth leader with 20+ years building and scaling go-to-market engines
+              across global organizations and founder-led businesses. Former CXO at TCS,
+              commercial leader at J&amp;J and Merck. Now working with founder-led technology
+              companies at the intersection of growth, creativity, and AI.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3">
+              <Link href="/about" className="btn-primary">
+                My Full Story
+              </Link>
+              <Link href="/services" className="btn-outline">
+                How I Can Help
+              </Link>
             </div>
           </div>
         </div>
