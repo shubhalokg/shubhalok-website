@@ -69,6 +69,8 @@ const caseStudies = [
 const platforms = [
   { name: 'Spotify', icon: '🎵', href: episode1.spotify },
   { name: 'YouTube', icon: '▶️', href: episode1.youtube },
+  { name: 'Instagram', icon: '📸', href: 'https://www.instagram.com/humanityageai/' },
+  { name: 'Facebook', icon: '📘', href: 'https://www.facebook.com/profile.php?id=61590189346687' },
 ]
 
 export default function WorkPodcastPage() {
@@ -114,7 +116,7 @@ export default function WorkPodcastPage() {
               <div className="accent-bar" />
               <h2 className="section-heading">
                 HUMANity in the<br />
-                <span className="text-brand-orange">Age of AI</span>
+                <span className="text-brand-orange">Age of AI™</span>
               </h2>
               <p className="text-brand-orange font-medium italic text-lg mb-5">
                 &ldquo;People are the future. Technology is the tool.&rdquo;
@@ -149,7 +151,7 @@ export default function WorkPodcastPage() {
 
               <div className="flex flex-col sm:flex-row gap-3">
                 <Link href="/contact" className="btn-primary">
-                  Be a Guest
+                  Nominate a Guest
                 </Link>
               </div>
             </div>
