@@ -40,8 +40,8 @@ const differentiators = [
 
 const services = [
   {
-    title: 'Fractional CMO',
-    desc: 'For growth-stage companies ($2M–$25M). Go-to-market strategy, brand positioning, sales enablement, and operational execution. Engagements typically 6–12 months.',
+    title: 'Fractional Chief Growth Officer',
+    desc: 'For growth-stage companies ($2M-$25M). Go-to-market strategy, revenue architecture, sales enablement, and cross-functional growth execution.',
     href: '/services#fractional-cmo',
     icon: '📊',
   },
