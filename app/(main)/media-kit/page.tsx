@@ -42,38 +42,33 @@ const speakingTopics = [
 ]
 
 const fastFacts = [
-  { label: 'Current Role', value: 'Strategic Advisor & Fractional CMO, Tin Taal Advisory' },
-  { label: 'Previous Title', value: 'Chief Experience Officer, TCS' },
+  { label: 'Current Role', value: 'Fractional CGO & Strategic Advisor, Amorbis' },
+  { label: 'Previous Title', value: 'Chief Commercial Officer, TCS' },
   { label: 'Experience', value: '25+ years across enterprise and startups' },
   { label: 'Industries', value: 'Life Sciences, Healthcare, Retail, Automotive, B2B Tech' },
   { label: 'Geography', value: 'US, India, EU — global perspective' },
-  { label: 'Podcast', value: 'HUMANity in the Age of AI' },
+  { label: 'Podcast', value: 'HUMANity in the Age of AI™' },
 ]
 
-const pressBio = `Shubhalok Ghosh is a strategic advisor, fractional CMO, and human-first leader at the intersection of business, technology, and purpose. With 25 years of enterprise and startup leadership, he helps companies accelerate revenue through go-to-market strategy, brand positioning, and operational execution.
+const pressBio = `Shubhalok Ghosh is a fractional Chief Growth Officer, strategic advisor, and human-first leader at the intersection of business, technology, and purpose. With 25+ years of enterprise and startup leadership, he helps founder-led companies accelerate revenue through go-to-market strategy, revenue architecture, and cross-functional growth execution.
 
-As Chief Experience Officer and Chief Commercial Officer at Tata Consultancy Services (TCS), Shubhalok led the Experience Transformation Practice serving global enterprise clients including Johnson & Johnson, Eli Lilly, Bayer, Pfizer, Humana, Cigna, Jaguar Land Rover, H&M, and Marks & Spencer. His career spans senior roles at Johnson & Johnson and Merck, co-founding a dermatology biotech, and leading a company through a major acquisition.
+As Chief Commercial Officer at Tata Consultancy Services (TCS), Shubhalok built the eXperience Transformation Group into a $300M+ global practice serving enterprise clients including Johnson & Johnson, Eli Lilly, Bayer, Pfizer, Humana, Cigna, Jaguar Land Rover, H&M, and Marks & Spencer. His career spans senior commercial roles at Johnson & Johnson and Merck, co-founding a dermatology biotech, and leading a company through a $1.3B acquisition.
 
-Today, through Tin Taal Advisory, Shubhalok serves as a strategic advisor to early-stage founders and fractional CMO for growth-stage companies. He also hosts "HUMANity in the Age of AI" — a podcast exploring what it means to lead, build, and stay human in a world being transformed by artificial intelligence.
+Today, through Amorbis, Shubhalok serves as a Fractional Chief Growth Officer for growth-stage companies and strategic advisor to early-stage founders. He also hosts HUMANity in the Age of AI™, a podcast exploring what it means to lead, build, and stay human in a world being transformed by technology.
 
-Shubhalok's commitment to human-centered leadership is rooted in an extraordinary family legacy: his grandparents were among Mahatma Gandhi's closest collaborators in India's independence movement, designing the national education system for independent India. That legacy of service, education, and purpose shapes everything he does.`
+His commitment to human-centered leadership is rooted in an extraordinary family legacy: his grandparents were among Mahatma Gandhi's closest collaborators in India's independence movement, designing the national education system for independent India. That legacy of service, education, and purpose shapes everything he does.`
 
 const pressFeatures = [
   {
     publication: 'MMM Magazine (Medical Marketing & Media)',
     feature: '"Agency 100" Annual Feature — Top 10 Design',
     years: '2020–2024 (annual)',
-    note: 'Archive links available on request; some years are paywalled.',
+    note: 'Read the 2024 MM+M Agency 100 profile',
+    link: 'https://www.mmm-online.com/agency-100/tcs-interactive-life-sciences-agency-100-2024/',
   },
   {
     publication: 'HotTopics',
     feature: 'Global Top 100 Chief Experience Officers',
-    years: '2024',
-    note: '',
-  },
-  {
-    publication: 'Everest Group',
-    feature: '"Leader of the Year" — Life Sciences Digital, Data & Analytics',
     years: '2024',
     note: '',
   },
@@ -90,7 +85,7 @@ export default function MediaKitPage() {
               Media Kit
             </span>
             <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6 leading-tight">
-              Strategic Advisor. Podcast Host.<br />
+              Fractional CGO. Podcast Host.<br />
               <span className="text-brand-orange">Human-First Leader.</span>
             </h1>
             <p className="text-gray-300 text-lg leading-relaxed mb-8">
@@ -115,12 +110,12 @@ export default function MediaKitPage() {
             {/* Headshot area */}
             <div>
               <div className="grid grid-cols-2 gap-4">
-                <div className="col-span-2 aspect-[16/9] bg-gradient-to-br from-brand-navy to-brand-navy-light rounded-xl flex items-center justify-center shadow-lg">
-                  <div className="text-center text-white p-6">
-                    <div className="text-5xl mb-3">👤</div>
-                    <p className="text-sm text-gray-300 italic">Primary Headshot</p>
-                    <p className="text-xs text-gray-400 mt-1">[Replace with hi-res headshot]</p>
-                  </div>
+                <div className="col-span-2 aspect-[16/9] bg-gradient-to-br from-brand-navy to-brand-navy-light rounded-xl overflow-hidden shadow-lg">
+                  <img
+                    src="/shubhalok-headshot.jpg"
+                    alt="Shubhalok Ghosh"
+                    className="w-full h-full object-cover object-top"
+                  />
                 </div>
                 <div className="aspect-square bg-brand-navy/10 rounded-lg flex items-center justify-center">
                   <div className="text-center p-4">
@@ -165,8 +160,8 @@ export default function MediaKitPage() {
                   One-Line Positioning
                 </h3>
                 <p className="text-gray-700 text-sm leading-relaxed italic">
-                  &ldquo;Strategic Advisor. Fractional CMO. Human-first leader at the
-                  intersection of business, technology, and purpose.&rdquo;
+                  &ldquo;Fractional Chief Growth Officer. Strategic Advisor. Human-first leader at
+                  the intersection of business, technology, and purpose.&rdquo;
                 </p>
               </div>
             </div>
@@ -220,7 +215,18 @@ export default function MediaKitPage() {
                     </h3>
                     <p className="text-gray-600 text-sm mt-1">{item.feature}</p>
                     {item.note && (
-                      <p className="text-gray-400 text-xs mt-1 italic">{item.note}</p>
+                      item.link ? (
+                        <a
+                          href={item.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-brand-orange text-xs mt-1 italic hover:underline"
+                        >
+                          {item.note}
+                        </a>
+                      ) : (
+                        <p className="text-gray-400 text-xs mt-1 italic">{item.note}</p>
+                      )
                     )}
                   </div>
                 </div>
