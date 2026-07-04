@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 
-const SITE_PASSWORD = 'ComingSoon2025'
+const SITE_PASSWORD = 'ComingSoon2026'
 
 export async function POST(request: NextRequest) {
   const { password } = await request.json()

@@ -303,14 +303,14 @@ Added full password protection to the entire site for the coming soon period.
 **New files created:**
 - `middleware.ts` — intercepts all requests; redirects unauthenticated visitors to `/password`; allows `/password` and `/api/unlock` to pass through
 - `app/password/page.tsx` — branded password gate page (Navy background, Orange/Green/Navy brand colors, "Shubhalok Ghosh" headline, "Site coming soon. Enter password to preview.")
-- `app/api/unlock/route.ts` — validates password `ComingSoon2025`; sets `sg_preview=unlocked` cookie valid for 7 days
+- `app/api/unlock/route.ts` — validates password `ComingSoon2026`; sets `sg_preview=unlocked` cookie valid for 7 days
 - `app/(main)/layout.tsx` — new route group layout wrapping Nav/Footer for all site pages
 
 **Architecture change:**
 - All 6 pages moved to `app/(main)/` route group (URLs unchanged)
 - `app/layout.tsx` stripped to bare HTML wrapper so password page renders without Nav/Footer
 
-**Password:** `ComingSoon2025`
+**Password:** `ComingSoon2026`
 **Cookie:** `sg_preview=unlocked` — HttpOnly, valid 7 days
 **To remove gate:** Delete `middleware.ts`
 
@@ -343,7 +343,7 @@ Updated homepage for investor, CEO, and founder audiences.
 
 #### Homepage Overhaul — Headshot, Positioning, Stats, Logo Section
 
-Site is live at shubhalok.com with password gate active (password: `ComingSoon2025`, 7-day cookie).
+Site is live at shubhalok.com with password gate active (password: `ComingSoon2026`, 7-day cookie).
 
 **Hero section — complete rebuild:**
 - Layout changed from single-column to **two-column**: text left, headshot right (full height, no overlay)
