@@ -189,10 +189,10 @@ export default function HomePage() {
               <span className="text-brand-orange">Built for your stage.</span>
             </h2>
             <p className="text-gray-600 leading-relaxed mb-8">
-              Executive growth leader with 20+ years building and scaling go-to-market engines
-              across global organizations and founder-led businesses. Former CXO at TCS,
-              commercial leader at J&amp;J and Merck. Now working with founder-led technology
-              companies at the intersection of growth, creativity, and AI.
+                Executive growth leader with 25+ years building and scaling go-to-market engines
+                across global organizations and founder-led businesses. Former CCO at TCS,
+                commercial leader at J&amp;J and Merck. Now working with founder-led companies to
+                build the commercial architecture that attracts customers and investors.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Link href="/about" className="btn-primary">
