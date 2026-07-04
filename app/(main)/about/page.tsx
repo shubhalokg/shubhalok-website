@@ -58,11 +58,9 @@ export default function AboutPage() {
             <p>
               At <strong className="text-brand-navy">TCS</strong>, I built the eXperience
               Transformation Group into a $300M+ global CX, MarTech, and digital transformation
-              practice operating across the US, India, and EU. The practice has since grown to
-              be recognized as the #7 marketing and technology agency in North America in
-              MM+M&apos;s 2026 Top 100 ranking, a reflection of the foundation, team, and
-              commercial model built during my tenure. Earlier in my career, I led go-to-market
-              strategy and business development for billion-dollar brands at{' '}
+              practice operating across the US, India, and EU, ranked #13 among healthcare
+              agencies in North America in MM+M&apos;s 2025 Agency 100. Earlier in my career, I
+              led go-to-market strategy and business development for billion-dollar brands at{' '}
               <strong className="text-brand-navy">J&amp;J</strong> and served as General Manager
               for <strong className="text-brand-navy">Merck Vaccines</strong> across Japan and
               Australia. Those experiences shaped how I think about growth, complexity, and the
