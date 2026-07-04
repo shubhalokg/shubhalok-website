@@ -173,12 +173,13 @@ export default function AboutPage() {
                   Listen
                 </p>
                 <div className="space-y-3">
-                  
+                  <a
                     href="https://drive.google.com/file/d/1j6Bc8pjF5lgbkTANoz-dNIALUHDirSKG/view"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 bg-white/10 border border-white/20 hover:bg-white/20 rounded-lg px-4 py-3 transition-colors duration-150"
                   >
+                    ▶
                     <div className="w-8 h-8 rounded-full bg-brand-orange flex items-center justify-center flex-shrink-0">
                       <svg className="w-3.5 h-3.5 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M8 5v14l11-7z" />
@@ -189,12 +190,13 @@ export default function AboutPage() {
                       <p className="text-gray-400 text-xs">Listen on Google Drive</p>
                     </div>
                   </a>
-                  
+                  <a
                     href="https://drive.google.com/file/d/1len16EpIcn9v72wIC8w0J9jwszpUDnKu/view"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 bg-white/10 border border-white/20 hover:bg-white/20 rounded-lg px-4 py-3 transition-colors duration-150"
                   >
+                    ▶
                     <div className="w-8 h-8 rounded-full bg-brand-orange flex items-center justify-center flex-shrink-0">
                       <svg className="w-3.5 h-3.5 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M8 5v14l11-7z" />
