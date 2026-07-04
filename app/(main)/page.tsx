@@ -47,7 +47,7 @@ const services = [
   },
   {
     title: 'Strategic Advisory',
-    desc: 'For early-stage founders (pre-seed through Series A). Positioning, product-market fit, brand strategy, and go-to-market planning. Equity + fee structures available.',
+    desc: 'For founders from seed through Series A. Commercialization strategy, positioning, product-market fit, and go-to-market architecture, including investor readiness and introductions.',
     href: '/services#advisory',
     icon: '🧭',
   },
