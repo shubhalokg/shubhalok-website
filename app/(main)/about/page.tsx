@@ -88,10 +88,8 @@ export default function AboutPage() {
               how I think about service, accountability, and what leadership is actually for.
             </p>
             <p>
-              Today I work with founders and growth-stage companies navigating commercial scale,
-              creativity, and the questions raised by artificial intelligence. The work is not
-              just about growth. It is about building businesses that people trust, adopt, and
-              want to be part of. I also host{' '}
+              Today I work with founders and growth-stage companies as a Fractional Chief Growth
+              Officer and Strategic Advisor. Founder thinking. Enterprise perspective. I also host{' '}
               <em className="text-brand-orange font-semibold">HUMANity in the Age of AI</em>, a
               podcast exploring what it means to lead, build, and stay human in a world being
               transformed by technology.
