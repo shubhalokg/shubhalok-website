@@ -425,3 +425,41 @@ Site is live at shubhalok.com with password gate active (password: `ComingSoon20
 - Client logo ticker for Signature Client Work section on homepage
 - Remove password gate (`middleware.ts`) when all pages are ready to go public
 - Add Gandhi family photos to About page when available
+
+### Session — July 4, 2026
+- Fixed Unicode corruption in app/(main)/about/page.tsx (stray > characters replaced with triangle symbols). All 18 TypeScript errors resolved.
+- Removed tsconfig.tsbuildinfo from Git tracking and added to .gitignore
+- Removed duplicate photo from Home page
+- Major positioning update: Fractional CMO to Fractional Chief Growth Officer across entire site (Home, Services, Work & Podcast, Media Kit, Password, Contact)
+- TCS title changed from Chief Experience Officer to Chief Commercial Officer across site
+- Updated TCS paragraph on About page: corrected MM+M ranking to #13, terminology to healthcare agencies
+- Bio paragraph updated: 25+ years, commercial architecture that attracts customers and investors
+- About page: added Founder thinking. Enterprise perspective. positioning line, trademark on podcast
+- Strategic Advisory updated across site: seed through Series A, investor readiness and introductions
+- Work & Podcast page: updated podcast description, Be a Guest to Nominate a Guest, added Instagram and Facebook
+- Home page: Be a Guest to Nominate a Guest
+- Media Kit page: full overhaul — updated hero, Fast Facts (Amorbis not Tin Taal, CCO not CXO), press bio, removed Everest Group award, added MM+M interview link, loaded headshot, removed Automotive from industries, added Speaking Topics section (4 topics)
+- Contact page: Fractional CMO to Fractional CGO, Executive Coaching replaced with Strategic Advisory, email updated to shubhalokg@gmail.com, trademark on podcast
+- Updated site password from ComingSoon2025 to ComingSoon2026
+- Research completed: deep analysis of CMO role decline and CGO role rise
+
+### Key Positioning Decisions (Updated July 4, 2026)
+- Primary title: Fractional Chief Growth Officer (not CMO)
+- Company: Amorbis (not Tin Taal Advisory)
+- TCS title: Chief Commercial Officer (not Chief Experience Officer)
+- Tagline: Founder thinking. Enterprise perspective. (on About page)
+- Podcast: always HUMANity in the Age of AI™ with trademark
+- Nominate a Guest (not Be a Guest)
+- NAYAderm stays in hero logo bar (founder credibility)
+- MM+M ranking: #13 in 2025 Agency 100 only (no post-departure claims)
+- Two service lanes only: Fractional CGO and Strategic Advisory (no Executive Coaching)
+- Site password: ComingSoon2026
+- Speaking topics: HUMANity in the Age of AI, Land of Misfits, Gandhi to C-Suite, GTM for Founders
+
+### Still To Do
+- Load additional podcast episodes (Marc Azoulay, Woody Giessmann, Gary Miller, Anthony Dispenziere, Josh Fishbein)
+- Replace Coming Up section with published episodes list
+- Media Kit: fill Headshot 2 and Podcast/Speaking image placeholders
+- Mondrian design direction not yet implemented
+- Consider adding LinkedIn profile link to site
+- Send site to Hallie Harris for feedback before Monday/Tuesday launch
