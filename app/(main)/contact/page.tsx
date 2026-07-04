@@ -7,7 +7,7 @@ const inquiryTypes = [
   'Fractional CGO Inquiry',
   'Marketing Services Project',
   'Podcast Production',
-  'Executive Coaching',
+  'Strategic Advisory Inquiry',
   'Speaking / Podcast Guest',
   'Media / Press Inquiry',
   'Other',
@@ -28,8 +28,8 @@ const contactReasons = [
   },
   {
     icon: '🧭',
-    title: 'Executive Coaching',
-    desc: 'Looking for a thought partner and executive coach.',
+    title: 'Strategic Advisory',
+    desc: 'Early-stage founders looking for a strategic partner.',
     href: '#contact-form',
   },
   {
