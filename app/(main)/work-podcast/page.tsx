@@ -62,7 +62,7 @@ const caseStudies = [
     label: 'Growth-Stage',
     title: 'Go-to-Market Strategy — B2B Services',
     outcome: 'Built go-to-market foundation and brand positioning from the ground up, enabling a growth-stage company to engage a new category of enterprise buyers.',
-    tags: ['Fractional CMO', 'Brand Positioning', 'GTM Strategy'],
+    tags: ['Fractional CGO', 'Brand Positioning', 'GTM Strategy'],
   },
 ]
 
@@ -119,14 +119,11 @@ export default function WorkPodcastPage() {
               <p className="text-brand-orange font-medium italic text-lg mb-5">
                 &ldquo;People are the future. Technology is the tool.&rdquo;
               </p>
-              <p className="text-gray-600 leading-relaxed mb-4">
-                AI must augment human capability — not replace human beings. This podcast
-                explores what it means to lead, build, and stay human in a world being
-                transformed by artificial intelligence.
-              </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Guests include founders, executives, and community leaders — people who are
-                navigating this transformation with clarity, conviction, and hard-won wisdom.
+                AI must augment human capability, not replace human beings. This podcast explores
+                what it means to lead, build, and stay human in a world being transformed by
+                technology. Guests include founders, executives, and community leaders navigating
+                this transformation with clarity, conviction, and hard-won wisdom.
               </p>
 
               {/* Listen on platforms */}
