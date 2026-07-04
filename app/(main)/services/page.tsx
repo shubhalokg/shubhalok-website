@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Services',
   description:
-    'Fractional CMO and Strategic Advisory from Shubhalok Ghosh — go-to-market strategy, brand positioning, and operational execution for growth-stage and early-stage companies.',
+    'Fractional Chief Growth Officer and Strategic Advisory from Shubhalok Ghosh — go-to-market strategy, brand positioning, and operational execution for growth-stage and early-stage companies.',
 }
 
 const process = [
@@ -33,15 +33,15 @@ const process = [
 const faqs = [
   {
     q: 'What does "fractional" mean exactly?',
-    a: 'Fractional means part-time but fully committed. You get a senior CMO for a defined number of days per month — at a fraction of the cost of a full-time hire. You get the strategy and leadership; you don\'t pay the full-time salary and benefits.',
+    a: 'Fractional means part-time but fully committed. You get a senior CGO for a defined number of days per month — at a fraction of the cost of a full-time hire. You get the strategy and leadership; you don\'t pay the full-time salary and benefits.',
   },
   {
     q: 'What size companies do you work with?',
-    a: 'For Fractional CMO engagements, the sweet spot is growth-stage companies in the $2M–$25M range that have outgrown founder-led marketing. For Strategic Advisory, I work with early-stage founders from pre-seed through Series A.',
+    a: 'For Fractional CGO engagements, the sweet spot is growth-stage companies in the $2M–$25M range that have outgrown founder-led growth. For Strategic Advisory, I work with early-stage founders from pre-seed through Series A.',
   },
   {
     q: 'How long are typical engagements?',
-    a: 'Fractional CMO engagements typically run 6–12 months, as meaningful strategic transformation takes time. Advisory engagements can be structured as ongoing retainers or milestone-based projects. We find the right structure for your situation.',
+    a: 'Fractional CGO engagements typically run 6–12 months, as meaningful strategic transformation takes time. Advisory engagements can be structured as ongoing retainers or milestone-based projects. We find the right structure for your situation.',
   },
   {
     q: 'Do you work with companies outside the US?',
@@ -75,7 +75,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Lane 1: Fractional CMO */}
+      {/* Lane 1: Fractional Chief Growth Officer */}
       <section id="fractional-cmo" className="py-24 bg-white scroll-mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-14 items-start">
@@ -84,28 +84,28 @@ export default function ServicesPage() {
                 Lane 1
               </div>
               <div className="accent-bar" />
-              <h2 className="section-heading">Fractional CMO</h2>
+              <h2 className="section-heading">Fractional Chief Growth Officer</h2>
               <p className="text-brand-orange font-semibold text-lg mb-4 italic">
-                Senior marketing leadership. Fractional cost.
+                Senior growth leadership. Fractional model.
               </p>
               <p className="text-gray-600 leading-relaxed mb-4">
-                You need a CMO. You need strategy, execution, and accountability. But you&apos;re
-                not ready for — or don&apos;t need — a full-time hire. That&apos;s exactly where
-                I come in.
+                You need strategy, execution, and accountability across the full growth engine. But
+                you are not ready for a full-time hire. I embed in your business as a strategic and
+                operational partner, aligning go-to-market, sales, and customer acquisition into one
+                coordinated growth system.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                I embed in your business as a strategic and operational partner — helping you build
-                the go-to-market engine, clarify your brand positioning, enable your sales team,
-                and execute the work that moves the needle.
+                From revenue architecture to brand positioning, sales enablement to cross-functional
+                execution, I operate as your senior growth leader, focused on the outcomes that
+                move the business.
               </p>
               <div className="bg-brand-navy/5 rounded-xl p-5 mb-6">
                 <p className="text-xs font-bold uppercase tracking-widest text-brand-navy mb-3">
                   Ideal For
                 </p>
                 <p className="text-gray-700 text-sm leading-relaxed">
-                  Growth-stage companies ($2M–$25M) that have outgrown founder-led marketing
-                  but aren&apos;t yet at the scale where a full-time CMO makes financial sense.
-                  Engagements typically run 6–12 months.
+                  Growth-stage companies ($2M-$25M) that have outgrown founder-led growth but are
+                  not yet at the scale where a full-time CGO makes financial sense.
                 </p>
               </div>
               <Link href="/contact" className="btn-primary">
