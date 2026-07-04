@@ -150,27 +150,22 @@ export default function ServicesPage() {
               </div>
               <div className="accent-bar" />
               <h2 className="section-heading">Strategic Advisory</h2>
-              <p className="text-brand-orange font-semibold text-lg mb-4 italic">
-                Founder thinking. Enterprise perspective.
-              </p>
               <p className="text-gray-600 leading-relaxed mb-4">
-                For early-stage founders who need more than a consultant — they need a thought
-                partner who has been in the room, built the pitch, and knows the difference
-                between a strategy that sounds good and one that actually works.
+                For founders who need more than a consultant. A thought partner who has been in
+                the room, built the pitch, and operated at the scale you are building toward.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                I work with founders on the foundational questions: positioning, product-market
-                fit, brand strategy, and go-to-market planning. The work is direct, specific,
-                and built around your actual business — not a framework.
+                I work with founders on the foundational questions: commercialization strategy,
+                positioning, product-market fit, and go-to-market architecture, including investor
+                readiness and introductions.
               </p>
               <div className="bg-brand-navy/5 rounded-xl p-5 mb-6">
                 <p className="text-xs font-bold uppercase tracking-widest text-brand-navy mb-3">
                   Ideal For
                 </p>
                 <p className="text-gray-700 text-sm leading-relaxed">
-                  Early-stage founders from pre-seed through Series A who need strategic clarity
-                  and an experienced partner to pressure-test their thinking. Equity plus fee
-                  structures available.
+                  Founders from seed through Series A who need strategic clarity and an experienced
+                  partner to pressure-test their thinking.
                 </p>
               </div>
               <Link href="/contact" className="btn-primary">
